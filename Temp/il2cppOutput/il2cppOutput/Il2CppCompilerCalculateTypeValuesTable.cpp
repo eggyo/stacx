@@ -1452,6 +1452,7 @@
 #include "AssemblyU2DCSharp_adsShowScript3897941752.h"
 #include "AssemblyU2DCSharp_cellScript2932946125.h"
 #include "AssemblyU2DCSharp_leaderBoardUIControl2635474284.h"
+#include "AssemblyU2DCSharp_leaderBoardUIControl_U3CupdateLe2114064412.h"
 #include "AssemblyU2DCSharp_parseInitScript3552217358.h"
 #include "AssemblyU2DCSharp_parseLoginScript797157601.h"
 #include "AssemblyU2DCSharp_parseLoginScript_U3CloginToParse2810064596.h"
@@ -1953,7 +1954,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[8596] = 
+extern const int32_t g_FieldOffsetTable[8591] = 
 {
 	0,
 	0,
@@ -1965,9 +1966,7 @@ extern const int32_t g_FieldOffsetTable[8596] =
 	0,
 	0,
 	offsetof(Int64_t2847414882, ___m_value_2) + sizeof(Object_t),
-	0,
-	0,
-	offsetof(UInt32_t985925326, ___m_value_2) + sizeof(Object_t),
+	offsetof(UInt32_t985925326, ___m_value_0) + sizeof(Object_t),
 	offsetof(CLSCompliantAttribute_t1445258624, ___is_compliant_0),
 	offsetof(UInt64_t985925421, ___m_value_0) + sizeof(Object_t),
 	0,
@@ -4634,7 +4633,6 @@ extern const int32_t g_FieldOffsetTable[8596] =
 	offsetof(ExecutionContext_t3375439994, ____sc_0),
 	offsetof(ExecutionContext_t3375439994, ____suppressFlow_1),
 	offsetof(ExecutionContext_t3375439994, ____capture_2),
-	offsetof(SynchronizationContext_t216490034, ___notification_required_0),
 	THREAD_STATIC_FIELD_OFFSET,
 	offsetof(Thread_t1674723085, ___lock_thread_id_0),
 	offsetof(Thread_t1674723085, ___system_thread_handle_1),
@@ -5628,8 +5626,6 @@ extern const int32_t g_FieldOffsetTable[8596] =
 	0,
 	0,
 	0,
-	0,
-	0,
 	offsetof(HybridDictionary_t370358365, ___caseInsensitive_0),
 	offsetof(HybridDictionary_t370358365, ___hashtable_1),
 	offsetof(HybridDictionary_t370358365, ___list_2),
@@ -6497,10 +6493,6 @@ extern const int32_t g_FieldOffsetTable[8596] =
 	offsetof(SymmetricTransform_t3854241867, ___m_disposed_9),
 	offsetof(SymmetricTransform_t3854241867, ___lastBlock_10),
 	offsetof(SymmetricTransform_t3854241867, ____rng_11),
-	0,
-	0,
-	0,
-	0,
 	0,
 	0,
 	0,
@@ -10537,6 +10529,10 @@ extern const int32_t g_FieldOffsetTable[8596] =
 	offsetof(leaderBoardUIControl_t2635474284, ___HUD_4),
 	offsetof(leaderBoardUIControl_t2635474284, ___isProgressDone_5),
 	offsetof(leaderBoardUIControl_t2635474284, ___leaders_6),
+	offsetof(leaderBoardUIControl_t2635474284, ___scoreText_7),
+	offsetof(leaderBoardUIControl_t2635474284, ___parseHighScore_8),
+	offsetof(U3CupdateLeaderU3Ec__AnonStorey3_t2114064412, ___currentUser_0),
+	offsetof(U3CupdateLeaderU3Ec__AnonStorey3_t2114064412, ___U3CU3Ef__this_1),
 	offsetof(parseInitScript_t3552217358, ___iosLink_2),
 	offsetof(parseInitScript_t3552217358, ___androidLink_3),
 	offsetof(parseInitScript_t3552217358, ___webLink_4),
@@ -10555,7 +10551,7 @@ extern const int32_t g_FieldOffsetTable[8596] =
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[2292] = 
+extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[2293] = 
 {
 	sizeof (U3CModuleU3E_t86524790), -1, 0, 0,
 	sizeof (Object_t), -1, 0, 0,
@@ -12846,6 +12842,7 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[2292] =
 	sizeof (autoDestroyScript_t3955113974), -1, 0, 0,
 	sizeof (cellScript_t2932946125), -1, 0, 0,
 	sizeof (leaderBoardUIControl_t2635474284), -1, 0, 0,
+	sizeof (U3CupdateLeaderU3Ec__AnonStorey3_t2114064412), -1, 0, 0,
 	sizeof (parseInitScript_t3552217358), -1, 0, 0,
 	sizeof (parseLoginScript_t797157601), -1, 0, 0,
 	sizeof (U3CloginToParseU3Ec__Iterator2_t2810064596), -1, 0, 0,

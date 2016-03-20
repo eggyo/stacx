@@ -14,7 +14,7 @@ public class ButtonShare : AppAdvisoryButtonBase
 	{
 		int bestScore = PlayerPrefs.GetInt("BEST_SCORE");
 
-		string s = "My best score: " + bestScore + ". Get it for free: " + URL;
+		string s = "My best STACX score: " + bestScore + ". Get it for free: " + URL;
 
 
 		NativeShare m = GetComponent<NativeShare>();
@@ -26,7 +26,8 @@ public class ButtonShare : AppAdvisoryButtonBase
 
 		m = GetComponent<NativeShare>();
 
-		m.Share("COLOR SWIPE","",URL,s);
+
+		m.ShareScreenshotWithText(s,URL);
 //		UM_ShareUtility.ShareMedia("Color swipe","My best score: " + bestScore + ". Get it for free: " + "http://barouch.fr/colorswipe.php",textureForPost);
 	}
 }

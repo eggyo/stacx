@@ -14110,9 +14110,11 @@ extern "C" void leaderBoardUIControl__ctor_m2133298863 ();
 extern "C" void leaderBoardUIControl_Start_m1080436655 ();
 extern "C" void leaderBoardUIControl_Update_m3434617406 ();
 extern "C" void leaderBoardUIControl_updateLeader_m2098149191 ();
-extern "C" void leaderBoardUIControl_U3CupdateLeaderU3Em__6_m1050326723 ();
+extern "C" void leaderBoardUIControl_U3CupdateLeaderU3Em__6_m4111519829 ();
+extern "C" void U3CupdateLeaderU3Ec__AnonStorey3__ctor_m1946407532 ();
+extern "C" void U3CupdateLeaderU3Ec__AnonStorey3_U3CU3Em__7_m3546027800 ();
 extern "C" void NativeShare__ctor_m568423043 ();
-extern "C" void NativeShare_ShareScreenshotWithText_m2757420329 ();
+extern "C" void NativeShare_ShareScreenshotWithText_m3112391077 ();
 extern "C" void NativeShare_Share_m3051472502 ();
 extern "C" void NativeShare_showAlertMessage_m1147432225 ();
 extern "C" void NativeShare_showSocialSharing_m963533802 ();
@@ -14120,7 +14122,7 @@ extern "C" void NativeShare_CallSocialShare_m2532950217 ();
 extern "C" void NativeShare_CallSocialShareAdvanced_m736861887 ();
 extern "C" void parseInitScript__ctor_m960204317 ();
 extern "C" void parseInitScript_Start_m4202309405 ();
-extern "C" void parseInitScript_U3CStartU3Em__7_m2103864037 ();
+extern "C" void parseInitScript_U3CStartU3Em__8_m3237054630 ();
 extern "C" void parseLoginScript__ctor_m1660611290 ();
 extern "C" void parseLoginScript_loginToParse_m1885954529 ();
 extern "C" void parseLoginScript_setFirstPlay_m821509452 ();
@@ -14131,7 +14133,7 @@ extern "C" void U3CloginToParseU3Ec__Iterator2_System_Collections_IEnumerator_ge
 extern "C" void U3CloginToParseU3Ec__Iterator2_MoveNext_m3295557227 ();
 extern "C" void U3CloginToParseU3Ec__Iterator2_Dispose_m2389464806 ();
 extern "C" void U3CloginToParseU3Ec__Iterator2_Reset_m3530582934 ();
-extern "C" void U3CloginToParseU3Ec__Iterator2_U3CU3Em__8_m770742000 ();
+extern "C" void U3CloginToParseU3Ec__Iterator2_U3CU3Em__9_m782058127 ();
 extern "C" void Sequences__ctor_m3150912761 ();
 extern "C" void Sequences_Start_m2098050553 ();
 extern "C" void SetAlphaPodium__ctor_m1944130019 ();
@@ -14151,7 +14153,7 @@ extern "C" void Utils_FromColor_m2057849043 ();
 extern "C" void Utils_ToColor_m1084707148 ();
 extern "C" void Utils_GetRGB_m4261187200 ();
 extern "C" void Utils_IsEqual_m947320720 ();
-extern const methodPointerType g_MethodPointers[14140] = 
+extern const methodPointerType g_MethodPointers[14142] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -28252,9 +28254,11 @@ extern const methodPointerType g_MethodPointers[14140] =
 	leaderBoardUIControl_Start_m1080436655,
 	leaderBoardUIControl_Update_m3434617406,
 	leaderBoardUIControl_updateLeader_m2098149191,
-	leaderBoardUIControl_U3CupdateLeaderU3Em__6_m1050326723,
+	leaderBoardUIControl_U3CupdateLeaderU3Em__6_m4111519829,
+	U3CupdateLeaderU3Ec__AnonStorey3__ctor_m1946407532,
+	U3CupdateLeaderU3Ec__AnonStorey3_U3CU3Em__7_m3546027800,
 	NativeShare__ctor_m568423043,
-	NativeShare_ShareScreenshotWithText_m2757420329,
+	NativeShare_ShareScreenshotWithText_m3112391077,
 	NativeShare_Share_m3051472502,
 	NativeShare_showAlertMessage_m1147432225,
 	NativeShare_showSocialSharing_m963533802,
@@ -28262,7 +28266,7 @@ extern const methodPointerType g_MethodPointers[14140] =
 	NativeShare_CallSocialShareAdvanced_m736861887,
 	parseInitScript__ctor_m960204317,
 	parseInitScript_Start_m4202309405,
-	parseInitScript_U3CStartU3Em__7_m2103864037,
+	parseInitScript_U3CStartU3Em__8_m3237054630,
 	parseLoginScript__ctor_m1660611290,
 	parseLoginScript_loginToParse_m1885954529,
 	parseLoginScript_setFirstPlay_m821509452,
@@ -28273,7 +28277,7 @@ extern const methodPointerType g_MethodPointers[14140] =
 	U3CloginToParseU3Ec__Iterator2_MoveNext_m3295557227,
 	U3CloginToParseU3Ec__Iterator2_Dispose_m2389464806,
 	U3CloginToParseU3Ec__Iterator2_Reset_m3530582934,
-	U3CloginToParseU3Ec__Iterator2_U3CU3Em__8_m770742000,
+	U3CloginToParseU3Ec__Iterator2_U3CU3Em__9_m782058127,
 	Sequences__ctor_m3150912761,
 	Sequences_Start_m2098050553,
 	SetAlphaPodium__ctor_m1944130019,

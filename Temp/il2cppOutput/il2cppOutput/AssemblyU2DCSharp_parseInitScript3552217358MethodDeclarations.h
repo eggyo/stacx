@@ -23,5 +23,5 @@ struct Task_1_t2879548009;
 extern "C"  void parseInitScript__ctor_m960204317 (parseInitScript_t3552217358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void parseInitScript::Start()
 extern "C"  void parseInitScript_Start_m4202309405 (parseInitScript_t3552217358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void parseInitScript::<Start>m__7(System.Threading.Tasks.Task`1<Parse.ParseObject>)
-extern "C"  void parseInitScript_U3CStartU3Em__7_m2103864037 (parseInitScript_t3552217358 * __this, Task_1_t2879548009 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void parseInitScript::<Start>m__8(System.Threading.Tasks.Task`1<Parse.ParseObject>)
+extern "C"  void parseInitScript_U3CStartU3Em__8_m3237054630 (parseInitScript_t3552217358 * __this, Task_1_t2879548009 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

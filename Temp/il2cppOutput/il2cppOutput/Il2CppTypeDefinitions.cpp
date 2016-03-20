@@ -46,6 +46,7 @@ extern const Il2CppType ICollection_1_t1302937806_0_0_6 = { &ICollection_1_t1302
 Il2CppGenericClass IEnumerable_1_t3709260776_GenericClass = { 29, { &GenInst_Object_t_0_0_0, NULL }, NULL };
 extern const Il2CppType IEnumerable_1_t3709260776_0_0_0 = { &IEnumerable_1_t3709260776_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const Il2CppType IEnumerable_1_t3709260776_0_0_33 = { &IEnumerable_1_t3709260776_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const Il2CppType IEnumerable_1_t3709260776_0_0_1 = { &IEnumerable_1_t3709260776_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass IList_1_t3003598734_GenericClass = { 48, { &GenInst_Object_t_0_0_0, NULL }, NULL };
 extern const Il2CppType IList_1_t3003598734_0_0_0 = { &IList_1_t3003598734_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -233,7 +234,6 @@ extern const Il2CppType IComparable_1_t4243495188_0_0_3 = { &IComparable_1_t4243
 extern const Il2CppType UInt32_t985925326_0_0_0 = { (void*)15, 0, IL2CPP_TYPE_U4, 0, 0, 0 };
 extern const Il2CppType UInt32_t985925326_1_0_0 = { (void*)15, 0, IL2CPP_TYPE_U4, 0, 1, 0 };
 extern const Il2CppType UInt32_t985925326_1_0_2 = { (void*)15, 2, IL2CPP_TYPE_U4, 0, 1, 0 };
-extern const Il2CppType UInt32_t985925326_0_0_32854 = { (void*)15, 32854, IL2CPP_TYPE_U4, 0, 0, 0 };
 extern const Il2CppType UInt32_t985925326_0_0_3 = { (void*)15, 3, IL2CPP_TYPE_U4, 0, 0, 0 };
 extern const Il2CppType UInt32_t985925326_0_0_1 = { (void*)15, 1, IL2CPP_TYPE_U4, 0, 0, 0 };
 extern const Il2CppType UInt32_t985925326_0_0_6 = { (void*)15, 6, IL2CPP_TYPE_U4, 0, 0, 0 };
@@ -10217,7 +10217,6 @@ extern const Il2CppType List_1_t835394488_0_0_0 = { &List_1_t835394488_GenericCl
 
 Il2CppGenericClass IEnumerable_1_t2910589875_GenericClass = { 29, { &GenInst_ParseUser_t38435519_0_0_0, NULL }, NULL };
 extern const Il2CppType IEnumerable_1_t2910589875_0_0_0 = { &IEnumerable_1_t2910589875_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-extern const Il2CppType IEnumerable_1_t2910589875_0_0_1 = { &IEnumerable_1_t2910589875_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass ICollection_1_t504266905_GenericClass = { 49, { &GenInst_ParseUser_t38435519_0_0_0, NULL }, NULL };
 extern const Il2CppType ICollection_1_t504266905_0_0_0 = { &ICollection_1_t504266905_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -21243,9 +21242,12 @@ extern const Il2CppType IEnumerable_1_t1589459515_0_0_0 = { &IEnumerable_1_t1589
 Il2CppGenericClass IEnumerator_1_t200411607_GenericClass = { 25, { &GenInst_MonoBehaviour_t3012272455_0_0_0, NULL }, NULL };
 extern const Il2CppType IEnumerator_1_t200411607_0_0_0 = { &IEnumerator_1_t200411607_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const Il2CppGenericInst GenInst_Task_1_t769445033_0_0_0;
-Il2CppGenericClass Action_1_t917897738_GenericClass = { 859, { &GenInst_Task_1_t769445033_0_0_0, NULL }, NULL };
-extern const Il2CppType Action_1_t917897738_0_0_0 = { &Action_1_t917897738_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+Il2CppGenericClass Task_1_t3787887843_GenericClass = { 2040, { &GenInst_List_1_t1634065389_0_0_0, NULL }, NULL };
+extern const Il2CppType Task_1_t3787887843_0_0_0 = { &Task_1_t3787887843_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const Il2CppGenericInst GenInst_Task_1_t3787887843_0_0_0;
+Il2CppGenericClass Action_1_t3936340548_GenericClass = { 859, { &GenInst_Task_1_t3787887843_0_0_0, NULL }, NULL };
+extern const Il2CppType Action_1_t3936340548_0_0_0 = { &Action_1_t3936340548_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass U3CU3Ec__2_1_t2262760692_GenericClass = { 1895, { &GenInst_Boolean_t211005341_0_0_0, NULL }, NULL };
 extern const Il2CppType U3CU3Ec__2_1_t2262760692_0_0_0 = { &U3CU3Ec__2_1_t2262760692_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -34638,16 +34640,20 @@ extern const Il2CppType cellScript_t2932946125_1_0_0 = { (void*)2287, 0, IL2CPP_
 
 extern const Il2CppType leaderBoardUIControl_t2635474284_0_0_0 = { (void*)2288, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType leaderBoardUIControl_t2635474284_1_0_0 = { (void*)2288, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const Il2CppType leaderBoardUIControl_t2635474284_0_0_3 = { (void*)2288, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const Il2CppType parseInitScript_t3552217358_0_0_0 = { (void*)2289, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType parseInitScript_t3552217358_1_0_0 = { (void*)2289, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const Il2CppType U3CupdateLeaderU3Ec__AnonStorey3_t2114064412_0_0_0 = { (void*)2289, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType U3CupdateLeaderU3Ec__AnonStorey3_t2114064412_1_0_0 = { (void*)2289, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const Il2CppType parseLoginScript_t797157601_0_0_0 = { (void*)2290, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType parseLoginScript_t797157601_1_0_0 = { (void*)2290, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const Il2CppType parseLoginScript_t797157601_0_0_3 = { (void*)2290, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType parseInitScript_t3552217358_0_0_0 = { (void*)2290, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType parseInitScript_t3552217358_1_0_0 = { (void*)2290, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const Il2CppType U3CloginToParseU3Ec__Iterator2_t2810064596_0_0_0 = { (void*)2291, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType U3CloginToParseU3Ec__Iterator2_t2810064596_1_0_0 = { (void*)2291, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const Il2CppType parseLoginScript_t797157601_0_0_0 = { (void*)2291, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType parseLoginScript_t797157601_1_0_0 = { (void*)2291, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const Il2CppType parseLoginScript_t797157601_0_0_3 = { (void*)2291, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+extern const Il2CppType U3CloginToParseU3Ec__Iterator2_t2810064596_0_0_0 = { (void*)2292, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType U3CloginToParseU3Ec__Iterator2_t2810064596_1_0_0 = { (void*)2292, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IComparer_1_t3748649920_GenericClass = { 168, { &GenInst_DefaultComparer_t401310062_gp_0_0_0_0, NULL }, NULL };
 extern const Il2CppType IComparer_1_t3748649920_0_0_0 = { &IComparer_1_t3748649920_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -34714,7 +34720,7 @@ extern const Il2CppType ExceptionU5BU5D_t1629112493_0_0_0 = { (void*)&Exception_
 
 extern const Il2CppType ITrackingHandler_t663364710_0_0_0;
 extern const Il2CppType ITrackingHandlerU5BU5D_t4057050947_0_0_0 = { (void*)&ITrackingHandler_t663364710_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const Il2CppType* const  g_Il2CppTypeTable[14846] = 
+extern const Il2CppType* const  g_Il2CppTypeTable[14849] = 
 {
 	&IEnumerator_1_t2320212868_0_0_0,
 	&Object_t_0_0_0,
@@ -41017,7 +41023,8 @@ extern const Il2CppType* const  g_Il2CppTypeTable[14846] =
 	&IList_1_t883797473_0_0_0,
 	&IEnumerable_1_t1589459515_0_0_0,
 	&IEnumerator_1_t200411607_0_0_0,
-	&Action_1_t917897738_0_0_0,
+	&Task_1_t3787887843_0_0_0,
+	&Action_1_t3936340548_0_0_0,
 	&U3CU3Ec__2_1_t2262760692_0_0_0,
 	&Func_2_t3617085505_0_0_0,
 	&Func_2_t3925988051_0_0_0,
@@ -41183,7 +41190,6 @@ extern const Il2CppType* const  g_Il2CppTypeTable[14846] =
 	&IEquatable_1_t2089039842_0_0_4,
 	&UInt32_t985925326_1_0_0,
 	&UInt32_t985925326_1_0_2,
-	&UInt32_t985925326_0_0_32854,
 	&UInt32_t985925326_0_0_3,
 	&IComparable_1_t4243495188_0_0_3,
 	&IEquatable_1_t227550286_0_0_4,
@@ -49468,7 +49474,11 @@ extern const Il2CppType* const  g_Il2CppTypeTable[14846] =
 	&cellScript_t2932946125_1_0_0,
 	&leaderBoardUIControl_t2635474284_0_0_0,
 	&leaderBoardUIControl_t2635474284_1_0_0,
-	&IEnumerable_1_t2910589875_0_0_1,
+	&IEnumerable_1_t3709260776_0_0_1,
+	&U3CupdateLeaderU3Ec__AnonStorey3_t2114064412_0_0_0,
+	&U3CupdateLeaderU3Ec__AnonStorey3_t2114064412_1_0_0,
+	&ParseUser_t38435519_0_0_3,
+	&leaderBoardUIControl_t2635474284_0_0_3,
 	&parseInitScript_t3552217358_0_0_0,
 	&parseInitScript_t3552217358_1_0_0,
 	&parseLoginScript_t797157601_0_0_0,
@@ -49476,7 +49486,6 @@ extern const Il2CppType* const  g_Il2CppTypeTable[14846] =
 	&InputField_t2345609593_0_0_6,
 	&U3CloginToParseU3Ec__Iterator2_t2810064596_0_0_0,
 	&U3CloginToParseU3Ec__Iterator2_t2810064596_1_0_0,
-	&ParseUser_t38435519_0_0_3,
 	&Task_t2616336456_0_0_3,
 	&parseLoginScript_t797157601_0_0_3,
 	&IEnumerator_1_t509385955_0_0_0,

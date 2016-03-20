@@ -3386,7 +3386,7 @@ extern "C"  void Enumerator__ctor_m2780515062_gshared (Enumerator_t4014815681 * 
 		__this->___hashset_0 = L_0;
 		HashSet_1_t3535795091 * L_1 = ___hashset;
 		NullCheck(L_1);
-		int32_t L_2 = (int32_t)(L_1->___generation_13);
+		int32_t L_2 = (int32_t)(L_1->___generation_9);
 		__this->___stamp_2 = L_2;
 		return;
 	}
@@ -3474,7 +3474,7 @@ IL_0019:
 	{
 		HashSet_1_t3535795091 * L_7 = (HashSet_1_t3535795091 *)(__this->___hashset_0);
 		NullCheck(L_7);
-		ObjectU5BU5D_t11523773* L_8 = (ObjectU5BU5D_t11523773*)(L_7->___slots_6);
+		ObjectU5BU5D_t11523773* L_8 = (ObjectU5BU5D_t11523773*)(L_7->___slots_2);
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, L_9);
@@ -3488,7 +3488,7 @@ IL_0055:
 		int32_t L_11 = (int32_t)(__this->___next_1);
 		HashSet_1_t3535795091 * L_12 = (HashSet_1_t3535795091 *)(__this->___hashset_0);
 		NullCheck(L_12);
-		int32_t L_13 = (int32_t)(L_12->___touched_7);
+		int32_t L_13 = (int32_t)(L_12->___touched_3);
 		if ((((int32_t)L_11) < ((int32_t)L_13)))
 		{
 			goto IL_0019;
@@ -3545,7 +3545,7 @@ IL_0012:
 	{
 		HashSet_1_t3535795091 * L_2 = (HashSet_1_t3535795091 *)(__this->___hashset_0);
 		NullCheck(L_2);
-		int32_t L_3 = (int32_t)(L_2->___generation_13);
+		int32_t L_3 = (int32_t)(L_2->___generation_9);
 		int32_t L_4 = (int32_t)(__this->___stamp_2);
 		if ((((int32_t)L_3) == ((int32_t)L_4)))
 		{
@@ -3924,7 +3924,7 @@ extern "C"  void HashSet_1__ctor_m3739212406_gshared (HashSet_1_t3535795091 * __
 		NullCheck((Object_t *)__this);
 		Object__ctor_m1772956182((Object_t *)__this, /*hidden argument*/NULL);
 		SerializationInfo_t2995724695 * L_0 = ___info;
-		__this->___si_12 = L_0;
+		__this->___si_8 = L_0;
 		return;
 	}
 }
@@ -3982,7 +3982,7 @@ extern "C"  Object_t * HashSet_1_System_Collections_IEnumerable_GetEnumerator_m1
 extern "C"  int32_t HashSet_1_get_Count_m3501347367_gshared (HashSet_1_t3535795091 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = (int32_t)(__this->___count_9);
+		int32_t L_0 = (int32_t)(__this->___count_5);
 		return L_0;
 	}
 }
@@ -4038,7 +4038,7 @@ IL_0012:
 IL_0020:
 	{
 		NullCheck(G_B4_1);
-		G_B4_1->___comparer_11 = G_B4_0;
+		G_B4_1->___comparer_7 = G_B4_0;
 		int32_t L_5 = ___capacity;
 		if (L_5)
 		{
@@ -4056,7 +4056,7 @@ IL_002f:
 		int32_t L_7 = ___capacity;
 		NullCheck((HashSet_1_t3535795091 *)__this);
 		((  void (*) (HashSet_1_t3535795091 *, int32_t, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11)->method)((HashSet_1_t3535795091 *)__this, (int32_t)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11));
-		__this->___generation_13 = 0;
+		__this->___generation_9 = 0;
 		return;
 	}
 }
@@ -4073,24 +4073,24 @@ extern "C"  void HashSet_1_InitArrays_m523929898_gshared (HashSet_1_t3535795091 
 	}
 	{
 		int32_t L_0 = ___size;
-		__this->___table_4 = ((Int32U5BU5D_t1809983122*)SZArrayNew(Int32U5BU5D_t1809983122_il2cpp_TypeInfo_var, (uint32_t)L_0));
+		__this->___table_0 = ((Int32U5BU5D_t1809983122*)SZArrayNew(Int32U5BU5D_t1809983122_il2cpp_TypeInfo_var, (uint32_t)L_0));
 		int32_t L_1 = ___size;
-		__this->___links_5 = ((LinkU5BU5D_t808175634*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12), (uint32_t)L_1));
-		__this->___empty_slot_8 = (-1);
+		__this->___links_1 = ((LinkU5BU5D_t808175634*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12), (uint32_t)L_1));
+		__this->___empty_slot_4 = (-1);
 		int32_t L_2 = ___size;
-		__this->___slots_6 = ((ObjectU5BU5D_t11523773*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 13), (uint32_t)L_2));
-		__this->___touched_7 = 0;
-		Int32U5BU5D_t1809983122* L_3 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		__this->___slots_2 = ((ObjectU5BU5D_t11523773*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 13), (uint32_t)L_2));
+		__this->___touched_3 = 0;
+		Int32U5BU5D_t1809983122* L_3 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_3);
-		__this->___threshold_10 = (((int32_t)((int32_t)((float)((float)(((float)((float)(((int32_t)((int32_t)(((Array_t *)L_3)->max_length)))))))*(float)(0.9f))))));
-		int32_t L_4 = (int32_t)(__this->___threshold_10);
+		__this->___threshold_6 = (((int32_t)((int32_t)((float)((float)(((float)((float)(((int32_t)((int32_t)(((Array_t *)L_3)->max_length)))))))*(float)(0.9f))))));
+		int32_t L_4 = (int32_t)(__this->___threshold_6);
 		if (L_4)
 		{
 			goto IL_0068;
 		}
 	}
 	{
-		Int32U5BU5D_t1809983122* L_5 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_5 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_5);
 		if ((((int32_t)(((int32_t)((int32_t)(((Array_t *)L_5)->max_length))))) <= ((int32_t)0)))
 		{
@@ -4098,7 +4098,7 @@ extern "C"  void HashSet_1_InitArrays_m523929898_gshared (HashSet_1_t3535795091 
 		}
 	}
 	{
-		__this->___threshold_10 = 1;
+		__this->___threshold_6 = 1;
 	}
 
 IL_0068:
@@ -4114,7 +4114,7 @@ extern "C"  bool HashSet_1_SlotsContainsAt_m2666990736_gshared (HashSet_1_t35357
 	int32_t G_B8_0 = 0;
 	int32_t G_B10_0 = 0;
 	{
-		Int32U5BU5D_t1809983122* L_0 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_0 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		int32_t L_1 = ___index;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
@@ -4125,7 +4125,7 @@ extern "C"  bool HashSet_1_SlotsContainsAt_m2666990736_gshared (HashSet_1_t35357
 
 IL_0010:
 	{
-		LinkU5BU5D_t808175634* L_3 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_3 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
@@ -4152,7 +4152,7 @@ IL_0010:
 		}
 	}
 	{
-		ObjectU5BU5D_t11523773* L_9 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_9 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, L_10);
@@ -4172,7 +4172,7 @@ IL_005b:
 		}
 	}
 	{
-		ObjectU5BU5D_t11523773* L_13 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_13 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_14 = V_0;
 		NullCheck(L_13);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_13, L_14);
@@ -4194,9 +4194,9 @@ IL_007d:
 
 IL_0082:
 	{
-		Object_t* L_16 = (Object_t*)(__this->___comparer_11);
+		Object_t* L_16 = (Object_t*)(__this->___comparer_7);
 		Object_t * L_17 = ___item;
-		ObjectU5BU5D_t11523773* L_18 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_18 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_19 = V_0;
 		NullCheck(L_18);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, L_19);
@@ -4241,7 +4241,7 @@ extern "C"  void HashSet_1_CopyTo_m2864960666_gshared (HashSet_1_t3535795091 * _
 	{
 		ObjectU5BU5D_t11523773* L_0 = ___array;
 		int32_t L_1 = ___index;
-		int32_t L_2 = (int32_t)(__this->___count_9);
+		int32_t L_2 = (int32_t)(__this->___count_5);
 		NullCheck((HashSet_1_t3535795091 *)__this);
 		((  void (*) (HashSet_1_t3535795091 *, ObjectU5BU5D_t11523773*, int32_t, int32_t, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 16)->method)((HashSet_1_t3535795091 *)__this, (ObjectU5BU5D_t11523773*)L_0, (int32_t)L_1, (int32_t)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 16));
 		return;
@@ -4348,7 +4348,7 @@ IL_0056:
 		int32_t L_14 = ___index;
 		int32_t L_15 = (int32_t)L_14;
 		___index = (int32_t)((int32_t)((int32_t)L_15+(int32_t)1));
-		ObjectU5BU5D_t11523773* L_16 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_16 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_17 = V_0;
 		NullCheck(L_16);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, L_17);
@@ -4367,7 +4367,7 @@ IL_007a:
 IL_007e:
 	{
 		int32_t L_20 = V_0;
-		int32_t L_21 = (int32_t)(__this->___touched_7);
+		int32_t L_21 = (int32_t)(__this->___touched_3);
 		if ((((int32_t)L_20) >= ((int32_t)L_21)))
 		{
 			goto IL_0091;
@@ -4408,7 +4408,7 @@ extern "C"  void HashSet_1_Resize_m904498211_gshared (HashSet_1_t3535795091 * __
 	ObjectU5BU5D_t11523773* V_7 = {0};
 	int32_t V_8 = 0;
 	{
-		Int32U5BU5D_t1809983122* L_0 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_0 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_0);
 		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
 		int32_t L_1 = ((  int32_t (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18)->method)(NULL /*static, unused*/, (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_0)->max_length))))<<(int32_t)1))|(int32_t)1)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18));
@@ -4423,7 +4423,7 @@ extern "C"  void HashSet_1_Resize_m904498211_gshared (HashSet_1_t3535795091 * __
 
 IL_0027:
 	{
-		Int32U5BU5D_t1809983122* L_4 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_4 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		int32_t L_5 = V_3;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
@@ -4438,7 +4438,7 @@ IL_0038:
 		int32_t L_8 = V_4;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, L_8);
-		ObjectU5BU5D_t11523773* L_9 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_9 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_10 = V_4;
 		NullCheck(L_9);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, L_10);
@@ -4469,7 +4469,7 @@ IL_0038:
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, L_23);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_22, L_23, sizeof(int32_t))) = (int32_t)((int32_t)((int32_t)L_24+(int32_t)1));
-		LinkU5BU5D_t808175634* L_25 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_25 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_26 = V_4;
 		NullCheck(L_25);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_25, L_26);
@@ -4493,7 +4493,7 @@ IL_009a:
 IL_00a6:
 	{
 		int32_t L_30 = V_3;
-		Int32U5BU5D_t1809983122* L_31 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_31 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_31);
 		if ((((int32_t)L_30) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_31)->max_length)))))))
 		{
@@ -4502,19 +4502,19 @@ IL_00a6:
 	}
 	{
 		Int32U5BU5D_t1809983122* L_32 = V_1;
-		__this->___table_4 = L_32;
+		__this->___table_0 = L_32;
 		LinkU5BU5D_t808175634* L_33 = V_2;
-		__this->___links_5 = L_33;
+		__this->___links_1 = L_33;
 		int32_t L_34 = V_0;
 		V_7 = (ObjectU5BU5D_t11523773*)((ObjectU5BU5D_t11523773*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 13), (uint32_t)L_34));
-		ObjectU5BU5D_t11523773* L_35 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_35 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		ObjectU5BU5D_t11523773* L_36 = V_7;
-		int32_t L_37 = (int32_t)(__this->___touched_7);
+		int32_t L_37 = (int32_t)(__this->___touched_3);
 		Array_Copy_m2598616668(NULL /*static, unused*/, (Array_t *)(Array_t *)L_35, (int32_t)0, (Array_t *)(Array_t *)L_36, (int32_t)0, (int32_t)L_37, /*hidden argument*/NULL);
 		ObjectU5BU5D_t11523773* L_38 = V_7;
-		__this->___slots_6 = L_38;
+		__this->___slots_2 = L_38;
 		int32_t L_39 = V_0;
-		__this->___threshold_10 = (((int32_t)((int32_t)((float)((float)(((float)((float)L_39)))*(float)(0.9f))))));
+		__this->___threshold_6 = (((int32_t)((int32_t)((float)((float)(((float)((float)L_39)))*(float)(0.9f))))));
 		return;
 	}
 }
@@ -4522,7 +4522,7 @@ IL_00a6:
 extern "C"  int32_t HashSet_1_GetLinkHashCode_m1128863229_gshared (HashSet_1_t3535795091 * __this, int32_t ___index, const MethodInfo* method)
 {
 	{
-		LinkU5BU5D_t808175634* L_0 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_0 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_1 = ___index;
 		NullCheck(L_0);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_1);
@@ -4546,7 +4546,7 @@ extern "C"  int32_t HashSet_1_GetItemHashCode_m416797561_gshared (HashSet_1_t353
 
 IL_0011:
 	{
-		Object_t* L_1 = (Object_t*)(__this->___comparer_11);
+		Object_t* L_1 = (Object_t*)(__this->___comparer_7);
 		Object_t * L_2 = ___item;
 		NullCheck((Object_t*)L_1);
 		int32_t L_3 = InterfaceFuncInvoker1< int32_t, Object_t * >::Invoke(1 /* System.Int32 System.Collections.Generic.IEqualityComparer`1<System.Object>::GetHashCode(!0) */, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15), (Object_t*)L_1, (Object_t *)L_2);
@@ -4566,7 +4566,7 @@ extern "C"  bool HashSet_1_Add_m3739352086_gshared (HashSet_1_t3535795091 * __th
 		int32_t L_1 = ((  int32_t (*) (HashSet_1_t3535795091 *, Object_t *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20)->method)((HashSet_1_t3535795091 *)__this, (Object_t *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20));
 		V_0 = (int32_t)L_1;
 		int32_t L_2 = V_0;
-		Int32U5BU5D_t1809983122* L_3 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_3 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_3);
 		V_1 = (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)2147483647LL)))%(int32_t)(((int32_t)((int32_t)(((Array_t *)L_3)->max_length))))));
 		int32_t L_4 = V_1;
@@ -4585,12 +4585,12 @@ extern "C"  bool HashSet_1_Add_m3739352086_gshared (HashSet_1_t3535795091 * __th
 
 IL_0029:
 	{
-		int32_t L_8 = (int32_t)(__this->___count_9);
+		int32_t L_8 = (int32_t)(__this->___count_5);
 		int32_t L_9 = (int32_t)((int32_t)((int32_t)L_8+(int32_t)1));
 		V_3 = (int32_t)L_9;
-		__this->___count_9 = L_9;
+		__this->___count_5 = L_9;
 		int32_t L_10 = V_3;
-		int32_t L_11 = (int32_t)(__this->___threshold_10);
+		int32_t L_11 = (int32_t)(__this->___threshold_6);
 		if ((((int32_t)L_10) <= ((int32_t)L_11)))
 		{
 			goto IL_005c;
@@ -4600,14 +4600,14 @@ IL_0029:
 		NullCheck((HashSet_1_t3535795091 *)__this);
 		((  void (*) (HashSet_1_t3535795091 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22)->method)((HashSet_1_t3535795091 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 22));
 		int32_t L_12 = V_0;
-		Int32U5BU5D_t1809983122* L_13 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_13 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_13);
 		V_1 = (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_12&(int32_t)((int32_t)2147483647LL)))%(int32_t)(((int32_t)((int32_t)(((Array_t *)L_13)->max_length))))));
 	}
 
 IL_005c:
 	{
-		int32_t L_14 = (int32_t)(__this->___empty_slot_8);
+		int32_t L_14 = (int32_t)(__this->___empty_slot_4);
 		V_2 = (int32_t)L_14;
 		int32_t L_15 = V_2;
 		if ((!(((uint32_t)L_15) == ((uint32_t)(-1)))))
@@ -4616,10 +4616,10 @@ IL_005c:
 		}
 	}
 	{
-		int32_t L_16 = (int32_t)(__this->___touched_7);
+		int32_t L_16 = (int32_t)(__this->___touched_3);
 		int32_t L_17 = (int32_t)L_16;
 		V_3 = (int32_t)L_17;
-		__this->___touched_7 = ((int32_t)((int32_t)L_17+(int32_t)1));
+		__this->___touched_3 = ((int32_t)((int32_t)L_17+(int32_t)1));
 		int32_t L_18 = V_3;
 		V_2 = (int32_t)L_18;
 		goto IL_0098;
@@ -4627,46 +4627,46 @@ IL_005c:
 
 IL_0081:
 	{
-		LinkU5BU5D_t808175634* L_19 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_19 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_20 = V_2;
 		NullCheck(L_19);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_19, L_20);
 		int32_t L_21 = (int32_t)(((Link_t1745155715 *)(Link_t1745155715 *)SZArrayLdElema(L_19, L_20, sizeof(Link_t1745155715 )))->___Next_1);
-		__this->___empty_slot_8 = L_21;
+		__this->___empty_slot_4 = L_21;
 	}
 
 IL_0098:
 	{
-		LinkU5BU5D_t808175634* L_22 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_22 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_23 = V_2;
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, L_23);
 		int32_t L_24 = V_0;
 		((Link_t1745155715 *)(Link_t1745155715 *)SZArrayLdElema(L_22, L_23, sizeof(Link_t1745155715 )))->___HashCode_0 = L_24;
-		LinkU5BU5D_t808175634* L_25 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_25 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_26 = V_2;
 		NullCheck(L_25);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_25, L_26);
-		Int32U5BU5D_t1809983122* L_27 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_27 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		int32_t L_28 = V_1;
 		NullCheck(L_27);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_27, L_28);
 		int32_t L_29 = L_28;
 		((Link_t1745155715 *)(Link_t1745155715 *)SZArrayLdElema(L_25, L_26, sizeof(Link_t1745155715 )))->___Next_1 = ((int32_t)((int32_t)(*(int32_t*)(int32_t*)SZArrayLdElema(L_27, L_29, sizeof(int32_t)))-(int32_t)1));
-		Int32U5BU5D_t1809983122* L_30 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_30 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		int32_t L_31 = V_1;
 		int32_t L_32 = V_2;
 		NullCheck(L_30);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_30, L_31);
 		*((int32_t*)(int32_t*)SZArrayLdElema(L_30, L_31, sizeof(int32_t))) = (int32_t)((int32_t)((int32_t)L_32+(int32_t)1));
-		ObjectU5BU5D_t11523773* L_33 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_33 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_34 = V_2;
 		Object_t * L_35 = ___item;
 		NullCheck(L_33);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_33, L_34);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_33, L_34, sizeof(Object_t *))) = (Object_t *)L_35;
-		int32_t L_36 = (int32_t)(__this->___generation_13);
-		__this->___generation_13 = ((int32_t)((int32_t)L_36+(int32_t)1));
+		int32_t L_36 = (int32_t)(__this->___generation_9);
+		__this->___generation_9 = ((int32_t)((int32_t)L_36+(int32_t)1));
 		return (bool)1;
 	}
 }
@@ -4674,23 +4674,23 @@ IL_0098:
 extern "C"  void HashSet_1_Clear_m1589866208_gshared (HashSet_1_t3535795091 * __this, const MethodInfo* method)
 {
 	{
-		__this->___count_9 = 0;
-		Int32U5BU5D_t1809983122* L_0 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
-		Int32U5BU5D_t1809983122* L_1 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		__this->___count_5 = 0;
+		Int32U5BU5D_t1809983122* L_0 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
+		Int32U5BU5D_t1809983122* L_1 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_1);
 		Array_Clear_m2499577033(NULL /*static, unused*/, (Array_t *)(Array_t *)L_0, (int32_t)0, (int32_t)(((int32_t)((int32_t)(((Array_t *)L_1)->max_length)))), /*hidden argument*/NULL);
-		ObjectU5BU5D_t11523773* L_2 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
-		ObjectU5BU5D_t11523773* L_3 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_2 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
+		ObjectU5BU5D_t11523773* L_3 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		NullCheck(L_3);
 		Array_Clear_m2499577033(NULL /*static, unused*/, (Array_t *)(Array_t *)L_2, (int32_t)0, (int32_t)(((int32_t)((int32_t)(((Array_t *)L_3)->max_length)))), /*hidden argument*/NULL);
-		LinkU5BU5D_t808175634* L_4 = (LinkU5BU5D_t808175634*)(__this->___links_5);
-		LinkU5BU5D_t808175634* L_5 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_4 = (LinkU5BU5D_t808175634*)(__this->___links_1);
+		LinkU5BU5D_t808175634* L_5 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		NullCheck(L_5);
 		Array_Clear_m2499577033(NULL /*static, unused*/, (Array_t *)(Array_t *)L_4, (int32_t)0, (int32_t)(((int32_t)((int32_t)(((Array_t *)L_5)->max_length)))), /*hidden argument*/NULL);
-		__this->___empty_slot_8 = (-1);
-		__this->___touched_7 = 0;
-		int32_t L_6 = (int32_t)(__this->___generation_13);
-		__this->___generation_13 = ((int32_t)((int32_t)L_6+(int32_t)1));
+		__this->___empty_slot_4 = (-1);
+		__this->___touched_3 = 0;
+		int32_t L_6 = (int32_t)(__this->___generation_9);
+		__this->___generation_9 = ((int32_t)((int32_t)L_6+(int32_t)1));
 		return;
 	}
 }
@@ -4705,7 +4705,7 @@ extern "C"  bool HashSet_1_Contains_m3727111780_gshared (HashSet_1_t3535795091 *
 		int32_t L_1 = ((  int32_t (*) (HashSet_1_t3535795091 *, Object_t *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20)->method)((HashSet_1_t3535795091 *)__this, (Object_t *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20));
 		V_0 = (int32_t)L_1;
 		int32_t L_2 = V_0;
-		Int32U5BU5D_t1809983122* L_3 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_3 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_3);
 		V_1 = (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)2147483647LL)))%(int32_t)(((int32_t)((int32_t)(((Array_t *)L_3)->max_length))))));
 		int32_t L_4 = V_1;
@@ -4741,10 +4741,10 @@ extern "C"  bool HashSet_1_Remove_m3015589727_gshared (HashSet_1_t3535795091 * _
 		int32_t L_1 = ((  int32_t (*) (HashSet_1_t3535795091 *, Object_t *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20)->method)((HashSet_1_t3535795091 *)__this, (Object_t *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 20));
 		V_0 = (int32_t)L_1;
 		int32_t L_2 = V_0;
-		Int32U5BU5D_t1809983122* L_3 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_3 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		NullCheck(L_3);
 		V_1 = (int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_2&(int32_t)((int32_t)2147483647LL)))%(int32_t)(((int32_t)((int32_t)(((Array_t *)L_3)->max_length))))));
-		Int32U5BU5D_t1809983122* L_4 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_4 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
@@ -4767,7 +4767,7 @@ IL_002d:
 
 IL_002f:
 	{
-		LinkU5BU5D_t808175634* L_8 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_8 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_9 = V_2;
 		NullCheck(L_8);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, L_9);
@@ -4794,7 +4794,7 @@ IL_002f:
 		}
 	}
 	{
-		ObjectU5BU5D_t11523773* L_14 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_14 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_15 = V_2;
 		NullCheck(L_14);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, L_15);
@@ -4814,7 +4814,7 @@ IL_007b:
 		}
 	}
 	{
-		ObjectU5BU5D_t11523773* L_18 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_18 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_19 = V_2;
 		NullCheck(L_18);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_18, L_19);
@@ -4836,8 +4836,8 @@ IL_009d:
 
 IL_00a2:
 	{
-		Object_t* L_21 = (Object_t*)(__this->___comparer_11);
-		ObjectU5BU5D_t11523773* L_22 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		Object_t* L_21 = (Object_t*)(__this->___comparer_7);
+		ObjectU5BU5D_t11523773* L_22 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_23 = V_2;
 		NullCheck(L_22);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_22, L_23);
@@ -4886,8 +4886,8 @@ IL_00d5:
 
 IL_00de:
 	{
-		int32_t L_31 = (int32_t)(__this->___count_9);
-		__this->___count_9 = ((int32_t)((int32_t)L_31-(int32_t)1));
+		int32_t L_31 = (int32_t)(__this->___count_5);
+		__this->___count_5 = ((int32_t)((int32_t)L_31-(int32_t)1));
 		int32_t L_32 = V_3;
 		if ((!(((uint32_t)L_32) == ((uint32_t)(-1)))))
 		{
@@ -4895,9 +4895,9 @@ IL_00de:
 		}
 	}
 	{
-		Int32U5BU5D_t1809983122* L_33 = (Int32U5BU5D_t1809983122*)(__this->___table_4);
+		Int32U5BU5D_t1809983122* L_33 = (Int32U5BU5D_t1809983122*)(__this->___table_0);
 		int32_t L_34 = V_1;
-		LinkU5BU5D_t808175634* L_35 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_35 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_36 = V_2;
 		NullCheck(L_35);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_35, L_36);
@@ -4910,11 +4910,11 @@ IL_00de:
 
 IL_0113:
 	{
-		LinkU5BU5D_t808175634* L_38 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_38 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_39 = V_3;
 		NullCheck(L_38);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_38, L_39);
-		LinkU5BU5D_t808175634* L_40 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_40 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_41 = V_2;
 		NullCheck(L_40);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_40, L_41);
@@ -4924,28 +4924,28 @@ IL_0113:
 
 IL_0135:
 	{
-		LinkU5BU5D_t808175634* L_43 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		LinkU5BU5D_t808175634* L_43 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_44 = V_2;
 		NullCheck(L_43);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_43, L_44);
-		int32_t L_45 = (int32_t)(__this->___empty_slot_8);
+		int32_t L_45 = (int32_t)(__this->___empty_slot_4);
 		((Link_t1745155715 *)(Link_t1745155715 *)SZArrayLdElema(L_43, L_44, sizeof(Link_t1745155715 )))->___Next_1 = L_45;
 		int32_t L_46 = V_2;
-		__this->___empty_slot_8 = L_46;
-		LinkU5BU5D_t808175634* L_47 = (LinkU5BU5D_t808175634*)(__this->___links_5);
+		__this->___empty_slot_4 = L_46;
+		LinkU5BU5D_t808175634* L_47 = (LinkU5BU5D_t808175634*)(__this->___links_1);
 		int32_t L_48 = V_2;
 		NullCheck(L_47);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_47, L_48);
 		((Link_t1745155715 *)(Link_t1745155715 *)SZArrayLdElema(L_47, L_48, sizeof(Link_t1745155715 )))->___HashCode_0 = 0;
-		ObjectU5BU5D_t11523773* L_49 = (ObjectU5BU5D_t11523773*)(__this->___slots_6);
+		ObjectU5BU5D_t11523773* L_49 = (ObjectU5BU5D_t11523773*)(__this->___slots_2);
 		int32_t L_50 = V_2;
 		Initobj (Object_t_il2cpp_TypeInfo_var, (&V_5));
 		Object_t * L_51 = V_5;
 		NullCheck(L_49);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_49, L_50);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_49, L_50, sizeof(Object_t *))) = (Object_t *)L_51;
-		int32_t L_52 = (int32_t)(__this->___generation_13);
-		__this->___generation_13 = ((int32_t)((int32_t)L_52+(int32_t)1));
+		int32_t L_52 = (int32_t)(__this->___generation_9);
+		__this->___generation_9 = ((int32_t)((int32_t)L_52+(int32_t)1));
 		return (bool)1;
 	}
 }
@@ -4978,7 +4978,7 @@ extern "C"  void HashSet_1_OnDeserialization_m3000579185_gshared (HashSet_1_t353
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SerializationInfo_t2995724695 * L_0 = (SerializationInfo_t2995724695 *)(__this->___si_12);
+		SerializationInfo_t2995724695 * L_0 = (SerializationInfo_t2995724695 *)(__this->___si_8);
 		if (L_0)
 		{
 			goto IL_000c;

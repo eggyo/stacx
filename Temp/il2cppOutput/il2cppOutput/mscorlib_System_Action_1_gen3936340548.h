@@ -10,8 +10,8 @@
 
 #include <stdint.h>
 
-// System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseUser>>
-struct Task_1_t769445033;
+// System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<System.Object>>
+struct Task_1_t3787887843;
 // System.IAsyncResult
 struct IAsyncResult_t537683269;
 // System.AsyncCallback
@@ -22,7 +22,7 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate2585444626.h"
 #include "mscorlib_System_Void2779279689.h"
 
-// System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseUser>>>
-struct  Action_1_t917897738  : public MulticastDelegate_t2585444626
+// System.Action`1<System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<System.Object>>>
+struct  Action_1_t3936340548  : public MulticastDelegate_t2585444626
 {
 };

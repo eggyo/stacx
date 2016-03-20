@@ -10,8 +10,6 @@
 
 #include <stdint.h>
 
-// System.String
-struct String_t;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.LinkedListNode`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
@@ -25,13 +23,13 @@ struct SerializationInfo_t2995724695;
 struct  LinkedList_1_t19855572  : public Object_t
 {
 	// System.UInt32 System.Collections.Generic.LinkedList`1::count
-	uint32_t ___count_2;
+	uint32_t ___count_0;
 	// System.UInt32 System.Collections.Generic.LinkedList`1::version
-	uint32_t ___version_3;
+	uint32_t ___version_1;
 	// System.Object System.Collections.Generic.LinkedList`1::syncRoot
-	Object_t * ___syncRoot_4;
+	Object_t * ___syncRoot_2;
 	// System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1::first
-	LinkedListNode_1_t2276683942 * ___first_5;
+	LinkedListNode_1_t2276683942 * ___first_3;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.LinkedList`1::si
-	SerializationInfo_t2995724695 * ___si_6;
+	SerializationInfo_t2995724695 * ___si_4;
 };

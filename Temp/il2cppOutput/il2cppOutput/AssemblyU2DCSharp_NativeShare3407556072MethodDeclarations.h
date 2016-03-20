@@ -24,8 +24,8 @@ struct String_t;
 
 // System.Void NativeShare::.ctor()
 extern "C"  void NativeShare__ctor_m568423043 (NativeShare_t3407556072 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void NativeShare::ShareScreenshotWithText(System.String)
-extern "C"  void NativeShare_ShareScreenshotWithText_m2757420329 (NativeShare_t3407556072 * __this, String_t* ___text, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void NativeShare::ShareScreenshotWithText(System.String,System.String)
+extern "C"  void NativeShare_ShareScreenshotWithText_m3112391077 (NativeShare_t3407556072 * __this, String_t* ___text, String_t* ___url, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void NativeShare::Share(System.String,System.String,System.String,System.String)
 extern "C"  void NativeShare_Share_m3051472502 (NativeShare_t3407556072 * __this, String_t* ___shareText, String_t* ___imagePath, String_t* ___url, String_t* ___subject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void NativeShare::showAlertMessage(NativeShare/ConfigStruct&)

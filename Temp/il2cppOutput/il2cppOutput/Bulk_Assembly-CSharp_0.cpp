@@ -117,8 +117,18 @@ struct Rigidbody_t1972007546;
 struct U3C_DoStartU3Ec__Iterator1_t2864435082;
 // UnityEngine.RectTransform
 struct RectTransform_t3317474837;
-// System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseUser>>
-struct Task_1_t769445033;
+// System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<System.Object>>
+struct Task_1_t3787887843;
+// System.Collections.Generic.IDictionary`2<System.String,System.Object>
+struct IDictionary_2_t3650470111;
+// System.Threading.Tasks.Task`1<System.Object>
+struct Task_1_t2990928874;
+// System.Threading.Tasks.Task`1<Parse.ParseUser>
+struct Task_1_t2192257973;
+// Parse.ParseUser
+struct ParseUser_t38435519;
+// leaderBoardUIControl/<updateLeader>c__AnonStorey3
+struct U3CupdateLeaderU3Ec__AnonStorey3_t2114064412;
 // System.Threading.Tasks.Task`1<Parse.ParseObject>
 struct Task_1_t2879548009;
 // parseLoginScript
@@ -380,12 +390,21 @@ struct SetColorPodium_t1772244989;
 #include "DOTween_DG_Tweening_TweenExtensions3741919413MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RectTransform3317474837MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_RectTransform3317474837.h"
-#include "Parse_Unity_Parse_ParseQuery_1_gen2473943795MethodDeclarations.h"
-#include "mscorlib_System_Action_1_gen917897738MethodDeclarations.h"
-#include "Parse_Unity_System_Threading_Tasks_Task_1_gen769445033MethodDeclarations.h"
-#include "Parse_Unity_Parse_ParseQuery_1_gen2473943795.h"
-#include "Parse_Unity_System_Threading_Tasks_Task_1_gen769445033.h"
-#include "mscorlib_System_Action_1_gen917897738.h"
+#include "Parse_Unity_Parse_ParseCloud854251811MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen3936340548MethodDeclarations.h"
+#include "Parse_Unity_System_Threading_Tasks_Task_1_gen3787887843MethodDeclarations.h"
+#include "AssemblyU2DCSharp_leaderBoardUIControl_U3CupdateLe2114064412MethodDeclarations.h"
+#include "Parse_Unity_Parse_ParseExtensions370018504MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen2340710678MethodDeclarations.h"
+#include "Parse_Unity_System_Threading_Tasks_Task_1_gen2192257973MethodDeclarations.h"
+#include "AssemblyU2DCSharp_leaderBoardUIControl_U3CupdateLe2114064412.h"
+#include "Parse_Unity_System_Threading_Tasks_Task_1_gen3787887843.h"
+#include "Parse_Unity_Parse_ParseCloud854251811.h"
+#include "mscorlib_System_Action_1_gen3936340548.h"
+#include "Parse_Unity_System_Threading_Tasks_Task_1_gen2192257973.h"
+#include "Parse_Unity_Parse_ParseExtensions370018504.h"
+#include "mscorlib_System_Action_1_gen2340710678.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1634065389.h"
 #include "AssemblyU2DCSharp_NativeShare_ConfigStruct364008919.h"
 #include "AssemblyU2DCSharp_NativeShare_ConfigStruct364008919MethodDeclarations.h"
 #include "AssemblyU2DCSharp_NativeShare_SocialSharingStruct3983109444.h"
@@ -516,6 +535,16 @@ extern "C"  int32_t ParseObject_Get_TisInt32_t2847414787_m668885892_gshared (Par
 #define ParseObject_Get_TisInt32_t2847414787_m668885892(__this, p0, method) ((  int32_t (*) (ParseObject_t725725555 *, String_t*, const MethodInfo*))ParseObject_Get_TisInt32_t2847414787_m668885892_gshared)(__this, p0, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.RectTransform>()
 #define GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(__this, method) ((  RectTransform_t3317474837 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m3652735468_gshared)(__this, method)
+// System.Threading.Tasks.Task`1<!!0> Parse.ParseCloud::CallFunctionAsync<System.Object>(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern "C"  Task_1_t2990928874 * ParseCloud_CallFunctionAsync_TisObject_t_m3429277790_gshared (Object_t * __this /* static, unused */, String_t* p0, Object_t* p1, const MethodInfo* method);
+#define ParseCloud_CallFunctionAsync_TisObject_t_m3429277790(__this /* static, unused */, p0, p1, method) ((  Task_1_t2990928874 * (*) (Object_t * /* static, unused */, String_t*, Object_t*, const MethodInfo*))ParseCloud_CallFunctionAsync_TisObject_t_m3429277790_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Threading.Tasks.Task`1<!!0> Parse.ParseCloud::CallFunctionAsync<System.Collections.Generic.List`1<System.Object>>(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+#define ParseCloud_CallFunctionAsync_TisList_1_t1634065389_m1791132528(__this /* static, unused */, p0, p1, method) ((  Task_1_t3787887843 * (*) (Object_t * /* static, unused */, String_t*, Object_t*, const MethodInfo*))ParseCloud_CallFunctionAsync_TisObject_t_m3429277790_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Threading.Tasks.Task`1<!!0> Parse.ParseExtensions::FetchAsync<System.Object>(!!0)
+extern "C"  Task_1_t2990928874 * ParseExtensions_FetchAsync_TisObject_t_m3955265069_gshared (Object_t * __this /* static, unused */, Object_t * p0, const MethodInfo* method);
+#define ParseExtensions_FetchAsync_TisObject_t_m3955265069(__this /* static, unused */, p0, method) ((  Task_1_t2990928874 * (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))ParseExtensions_FetchAsync_TisObject_t_m3955265069_gshared)(__this /* static, unused */, p0, method)
+// System.Threading.Tasks.Task`1<!!0> Parse.ParseExtensions::FetchAsync<Parse.ParseUser>(!!0)
+#define ParseExtensions_FetchAsync_TisParseUser_t38435519_m1767046898(__this /* static, unused */, p0, method) ((  Task_1_t2192257973 * (*) (Object_t * /* static, unused */, ParseUser_t38435519 *, const MethodInfo*))ParseExtensions_FetchAsync_TisObject_t_m3955265069_gshared)(__this /* static, unused */, p0, method)
 // !!0 Parse.ParseObject::Get<System.Object>(System.String)
 extern "C"  Object_t * ParseObject_Get_TisObject_t_m1012731375_gshared (ParseObject_t725725555 * __this, String_t* p0, const MethodInfo* method);
 #define ParseObject_Get_TisObject_t_m1012731375(__this, p0, method) ((  Object_t * (*) (ParseObject_t725725555 *, String_t*, const MethodInfo*))ParseObject_Get_TisObject_t_m1012731375_gshared)(__this, p0, method)
@@ -1377,9 +1406,8 @@ extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern const MethodInfo* Component_GetComponent_TisNativeShare_t3407556072_m2365466705_MethodInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisNativeShare_t3407556072_m470607684_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2713435223;
-extern Il2CppCodeGenString* _stringLiteral2755889360;
+extern Il2CppCodeGenString* _stringLiteral1404999717;
 extern Il2CppCodeGenString* _stringLiteral4143711490;
-extern Il2CppCodeGenString* _stringLiteral2590430205;
 extern const uint32_t ButtonShare_OnClicked_m2806795588_MetadataUsageId;
 extern "C"  void ButtonShare_OnClicked_m2806795588 (ButtonShare_t4191981485 * __this, const MethodInfo* method)
 {
@@ -1398,8 +1426,8 @@ extern "C"  void ButtonShare_OnClicked_m2806795588 (ButtonShare_t4191981485 * __
 		ObjectU5BU5D_t11523773* L_1 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)4));
 		NullCheck(L_1);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
-		ArrayElementTypeCheck (L_1, _stringLiteral2755889360);
-		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral2755889360;
+		ArrayElementTypeCheck (L_1, _stringLiteral1404999717);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral1404999717;
 		ObjectU5BU5D_t11523773* L_2 = L_1;
 		int32_t L_3 = V_0;
 		int32_t L_4 = L_3;
@@ -1442,12 +1470,10 @@ IL_0058:
 		NativeShare_t3407556072 * L_14 = Component_GetComponent_TisNativeShare_t3407556072_m2365466705(__this, /*hidden argument*/Component_GetComponent_TisNativeShare_t3407556072_m2365466705_MethodInfo_var);
 		V_2 = L_14;
 		NativeShare_t3407556072 * L_15 = V_2;
-		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_16 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		String_t* L_16 = V_1;
 		String_t* L_17 = (__this->___URL_2);
-		String_t* L_18 = V_1;
 		NullCheck(L_15);
-		NativeShare_Share_m3051472502(L_15, _stringLiteral2590430205, L_16, L_17, L_18, /*hidden argument*/NULL);
+		NativeShare_ShareScreenshotWithText_m3112391077(L_15, L_16, L_17, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -15294,10 +15320,11 @@ extern "C"  void leaderBoardUIControl_Start_m1080436655 (leaderBoardUIControl_t2
 	}
 }
 // System.Void leaderBoardUIControl::Update()
-extern TypeInfo* IEnumerable_1_t2910589875_il2cpp_TypeInfo_var;
-extern TypeInfo* IEnumerator_1_t1521541967_il2cpp_TypeInfo_var;
-extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerable_1_t3709260776_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_1_t2320212868_il2cpp_TypeInfo_var;
+extern TypeInfo* ParseUser_t38435519_il2cpp_TypeInfo_var;
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern TypeInfo* IEnumerator_t287207039_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
@@ -15305,6 +15332,7 @@ extern const MethodInfo* Object_Instantiate_TisGameObject_t4012695102_m391760892
 extern const MethodInfo* GameObject_GetComponent_TiscellScript_t2932946125_m3714483568_MethodInfo_var;
 extern const MethodInfo* ParseObject_Get_TisInt32_t2847414787_m668885892_MethodInfo_var;
 extern const MethodInfo* GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2061229556;
 extern Il2CppCodeGenString* _stringLiteral3590497808;
 extern const uint32_t leaderBoardUIControl_Update_m3434617406_MetadataUsageId;
 extern "C"  void leaderBoardUIControl_Update_m3434617406 (leaderBoardUIControl_t2635474284 * __this, const MethodInfo* method)
@@ -15325,154 +15353,162 @@ extern "C"  void leaderBoardUIControl_Update_m3434617406 (leaderBoardUIControl_t
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		bool L_0 = (__this->___isProgressDone_5);
-		if (!L_0)
+		Text_t3286458198 * L_0 = (__this->___scoreText_7);
+		int32_t L_1 = (__this->___parseHighScore_8);
+		int32_t L_2 = L_1;
+		Object_t * L_3 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral2061229556, L_3, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_4);
+		bool L_5 = (__this->___isProgressDone_5);
+		if (!L_5)
 		{
-			goto IL_0108;
+			goto IL_012d;
 		}
 	}
 	{
 		__this->___isProgressDone_5 = (bool)0;
-		Object_t* L_1 = (__this->___leaders_6);
-		NullCheck(L_1);
-		Object_t* L_2 = InterfaceFuncInvoker0< Object_t* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<Parse.ParseUser>::GetEnumerator() */, IEnumerable_1_t2910589875_il2cpp_TypeInfo_var, L_1);
-		V_1 = L_2;
+		Object_t* L_6 = (__this->___leaders_6);
+		NullCheck(L_6);
+		Object_t* L_7 = InterfaceFuncInvoker0< Object_t* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<System.Object>::GetEnumerator() */, IEnumerable_1_t3709260776_il2cpp_TypeInfo_var, L_6);
+		V_1 = L_7;
 	}
 
-IL_001e:
+IL_003e:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_00e1;
+			goto IL_0106;
 		}
 
-IL_0023:
+IL_0043:
 		{
-			Object_t* L_3 = V_1;
-			NullCheck(L_3);
-			ParseUser_t38435519 * L_4 = InterfaceFuncInvoker0< ParseUser_t38435519 * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<Parse.ParseUser>::get_Current() */, IEnumerator_1_t1521541967_il2cpp_TypeInfo_var, L_3);
-			V_0 = L_4;
-			GameObject_t4012695102 * L_5 = (__this->___cell_3);
-			GameObject_t4012695102 * L_6 = Object_Instantiate_TisGameObject_t4012695102_m3917608929(NULL /*static, unused*/, L_5, /*hidden argument*/Object_Instantiate_TisGameObject_t4012695102_m3917608929_MethodInfo_var);
-			V_2 = L_6;
-			GameObject_t4012695102 * L_7 = V_2;
-			NullCheck(L_7);
-			Transform_t284553113 * L_8 = GameObject_get_transform_m1278640159(L_7, /*hidden argument*/NULL);
-			GameObject_t4012695102 * L_9 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
-			NullCheck(L_9);
-			Transform_t284553113 * L_10 = GameObject_get_transform_m1278640159(L_9, /*hidden argument*/NULL);
+			Object_t* L_8 = V_1;
 			NullCheck(L_8);
-			Transform_set_parent_m3231272063(L_8, L_10, /*hidden argument*/NULL);
-			GameObject_t4012695102 * L_11 = V_2;
-			NullCheck(L_11);
-			Transform_t284553113 * L_12 = GameObject_get_transform_m1278640159(L_11, /*hidden argument*/NULL);
-			Vector3_t3525329789  L_13 = {0};
-			Vector3__ctor_m2926210380(&L_13, (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+			Object_t * L_9 = InterfaceFuncInvoker0< Object_t * >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.Object>::get_Current() */, IEnumerator_1_t2320212868_il2cpp_TypeInfo_var, L_8);
+			V_0 = ((ParseUser_t38435519 *)CastclassClass(L_9, ParseUser_t38435519_il2cpp_TypeInfo_var));
+			GameObject_t4012695102 * L_10 = (__this->___cell_3);
+			GameObject_t4012695102 * L_11 = Object_Instantiate_TisGameObject_t4012695102_m3917608929(NULL /*static, unused*/, L_10, /*hidden argument*/Object_Instantiate_TisGameObject_t4012695102_m3917608929_MethodInfo_var);
+			V_2 = L_11;
+			GameObject_t4012695102 * L_12 = V_2;
 			NullCheck(L_12);
-			Transform_set_localScale_m310756934(L_12, L_13, /*hidden argument*/NULL);
-			GameObject_t4012695102 * L_14 = V_2;
+			Transform_t284553113 * L_13 = GameObject_get_transform_m1278640159(L_12, /*hidden argument*/NULL);
+			GameObject_t4012695102 * L_14 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
 			NullCheck(L_14);
-			cellScript_t2932946125 * L_15 = GameObject_GetComponent_TiscellScript_t2932946125_m3714483568(L_14, /*hidden argument*/GameObject_GetComponent_TiscellScript_t2932946125_m3714483568_MethodInfo_var);
-			NullCheck(L_15);
-			Text_t3286458198 * L_16 = (L_15->___playerNameText_2);
-			ParseUser_t38435519 * L_17 = V_0;
-			NullCheck(L_17);
-			String_t* L_18 = ParseUser_get_Username_m200672612(L_17, /*hidden argument*/NULL);
+			Transform_t284553113 * L_15 = GameObject_get_transform_m1278640159(L_14, /*hidden argument*/NULL);
+			NullCheck(L_13);
+			Transform_set_parent_m3231272063(L_13, L_15, /*hidden argument*/NULL);
+			GameObject_t4012695102 * L_16 = V_2;
 			NullCheck(L_16);
-			VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_16, L_18);
+			Transform_t284553113 * L_17 = GameObject_get_transform_m1278640159(L_16, /*hidden argument*/NULL);
+			Vector3_t3525329789  L_18 = {0};
+			Vector3__ctor_m2926210380(&L_18, (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+			NullCheck(L_17);
+			Transform_set_localScale_m310756934(L_17, L_18, /*hidden argument*/NULL);
 			GameObject_t4012695102 * L_19 = V_2;
 			NullCheck(L_19);
 			cellScript_t2932946125 * L_20 = GameObject_GetComponent_TiscellScript_t2932946125_m3714483568(L_19, /*hidden argument*/GameObject_GetComponent_TiscellScript_t2932946125_m3714483568_MethodInfo_var);
 			NullCheck(L_20);
-			Text_t3286458198 * L_21 = (L_20->___playerScoreText_3);
-			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-			String_t* L_22 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
-			ParseUser_t38435519 * L_23 = V_0;
-			NullCheck(L_23);
-			int32_t L_24 = ParseObject_Get_TisInt32_t2847414787_m668885892(L_23, _stringLiteral3590497808, /*hidden argument*/ParseObject_Get_TisInt32_t2847414787_m668885892_MethodInfo_var);
-			int32_t L_25 = L_24;
-			Object_t * L_26 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_25);
-			String_t* L_27 = String_Concat_m389863537(NULL /*static, unused*/, L_22, L_26, /*hidden argument*/NULL);
+			Text_t3286458198 * L_21 = (L_20->___playerNameText_2);
+			ParseUser_t38435519 * L_22 = V_0;
+			NullCheck(L_22);
+			String_t* L_23 = ParseUser_get_Username_m200672612(L_22, /*hidden argument*/NULL);
 			NullCheck(L_21);
-			VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_21, L_27);
-			GameObject_t4012695102 * L_28 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+			VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_21, L_23);
+			GameObject_t4012695102 * L_24 = V_2;
+			NullCheck(L_24);
+			cellScript_t2932946125 * L_25 = GameObject_GetComponent_TiscellScript_t2932946125_m3714483568(L_24, /*hidden argument*/GameObject_GetComponent_TiscellScript_t2932946125_m3714483568_MethodInfo_var);
+			NullCheck(L_25);
+			Text_t3286458198 * L_26 = (L_25->___playerScoreText_3);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_27 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+			ParseUser_t38435519 * L_28 = V_0;
 			NullCheck(L_28);
-			RectTransform_t3317474837 * L_29 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_28, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
-			RectTransform_t3317474837 * L_30 = L_29;
-			NullCheck(L_30);
-			Vector2_t3525329788  L_31 = RectTransform_get_sizeDelta_m4279424984(L_30, /*hidden argument*/NULL);
-			float L_32 = (__this->___cellHeight_2);
-			Vector2_t3525329788  L_33 = {0};
-			Vector2__ctor_m1517109030(&L_33, (0.0f), L_32, /*hidden argument*/NULL);
-			Vector2_t3525329788  L_34 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_31, L_33, /*hidden argument*/NULL);
-			NullCheck(L_30);
-			RectTransform_set_sizeDelta_m1223846609(L_30, L_34, /*hidden argument*/NULL);
-			ParseUser_t38435519 * L_35 = V_0;
+			int32_t L_29 = ParseObject_Get_TisInt32_t2847414787_m668885892(L_28, _stringLiteral3590497808, /*hidden argument*/ParseObject_Get_TisInt32_t2847414787_m668885892_MethodInfo_var);
+			int32_t L_30 = L_29;
+			Object_t * L_31 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_30);
+			String_t* L_32 = String_Concat_m389863537(NULL /*static, unused*/, L_27, L_31, /*hidden argument*/NULL);
+			NullCheck(L_26);
+			VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_26, L_32);
+			GameObject_t4012695102 * L_33 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+			NullCheck(L_33);
+			RectTransform_t3317474837 * L_34 = GameObject_GetComponent_TisRectTransform_t3317474837_m406276429(L_33, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var);
+			RectTransform_t3317474837 * L_35 = L_34;
 			NullCheck(L_35);
-			String_t* L_36 = ParseUser_get_Username_m200672612(L_35, /*hidden argument*/NULL);
+			Vector2_t3525329788  L_36 = RectTransform_get_sizeDelta_m4279424984(L_35, /*hidden argument*/NULL);
+			float L_37 = (__this->___cellHeight_2);
+			Vector2_t3525329788  L_38 = {0};
+			Vector2__ctor_m1517109030(&L_38, (0.0f), L_37, /*hidden argument*/NULL);
+			Vector2_t3525329788  L_39 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_36, L_38, /*hidden argument*/NULL);
+			NullCheck(L_35);
+			RectTransform_set_sizeDelta_m1223846609(L_35, L_39, /*hidden argument*/NULL);
+			ParseUser_t38435519 * L_40 = V_0;
+			NullCheck(L_40);
+			String_t* L_41 = ParseUser_get_Username_m200672612(L_40, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-			Debug_Log_m1731103628(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+			Debug_Log_m1731103628(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
 		}
 
-IL_00e1:
+IL_0106:
 		{
-			Object_t* L_37 = V_1;
-			NullCheck(L_37);
-			bool L_38 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t287207039_il2cpp_TypeInfo_var, L_37);
-			if (L_38)
+			Object_t* L_42 = V_1;
+			NullCheck(L_42);
+			bool L_43 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t287207039_il2cpp_TypeInfo_var, L_42);
+			if (L_43)
 			{
-				goto IL_0023;
+				goto IL_0043;
 			}
 		}
 
-IL_00ec:
+IL_0111:
 		{
-			IL2CPP_LEAVE(0xFC, FINALLY_00f1);
+			IL2CPP_LEAVE(0x121, FINALLY_0116);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
-		goto FINALLY_00f1;
+		goto FINALLY_0116;
 	}
 
-FINALLY_00f1:
+FINALLY_0116:
 	{ // begin finally (depth: 1)
 		{
-			Object_t* L_39 = V_1;
-			if (L_39)
+			Object_t* L_44 = V_1;
+			if (L_44)
 			{
-				goto IL_00f5;
+				goto IL_011a;
 			}
 		}
 
-IL_00f4:
+IL_0119:
 		{
-			IL2CPP_END_FINALLY(241)
+			IL2CPP_END_FINALLY(278)
 		}
 
-IL_00f5:
+IL_011a:
 		{
-			Object_t* L_40 = V_1;
-			NullCheck(L_40);
-			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, L_40);
-			IL2CPP_END_FINALLY(241)
+			Object_t* L_45 = V_1;
+			NullCheck(L_45);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, L_45);
+			IL2CPP_END_FINALLY(278)
 		}
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(241)
+	IL2CPP_CLEANUP(278)
 	{
-		IL2CPP_JUMP_TBL(0xFC, IL_00fc)
+		IL2CPP_JUMP_TBL(0x121, IL_0121)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
 	}
 
-IL_00fc:
+IL_0121:
 	{
-		GameObject_t4012695102 * L_41 = (__this->___HUD_4);
-		NullCheck(L_41);
-		GameObject_SetActive_m3538205401(L_41, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_46 = (__this->___HUD_4);
+		NullCheck(L_46);
+		GameObject_SetActive_m3538205401(L_46, (bool)0, /*hidden argument*/NULL);
 	}
 
-IL_0108:
+IL_012d:
 	{
 		return;
 	}
@@ -15481,16 +15517,20 @@ IL_0108:
 extern TypeInfo* IEnumerator_t287207039_il2cpp_TypeInfo_var;
 extern TypeInfo* Transform_t284553113_il2cpp_TypeInfo_var;
 extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t3936340548_il2cpp_TypeInfo_var;
 extern TypeInfo* ParseUser_t38435519_il2cpp_TypeInfo_var;
-extern TypeInfo* Action_1_t917897738_il2cpp_TypeInfo_var;
+extern TypeInfo* U3CupdateLeaderU3Ec__AnonStorey3_t2114064412_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t2340710678_il2cpp_TypeInfo_var;
 extern const MethodInfo* GameObject_GetComponent_TisRectTransform_t3317474837_m406276429_MethodInfo_var;
-extern const MethodInfo* ParseQuery_1_OrderBy_m2816358753_MethodInfo_var;
-extern const MethodInfo* ParseQuery_1_Limit_m3975108296_MethodInfo_var;
-extern const MethodInfo* ParseQuery_1_FindAsync_m3964066658_MethodInfo_var;
-extern const MethodInfo* leaderBoardUIControl_U3CupdateLeaderU3Em__6_m1050326723_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3626943444_MethodInfo_var;
-extern const MethodInfo* Task_1_ContinueWith_m1099580068_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral3590497808;
+extern const MethodInfo* ParseCloud_CallFunctionAsync_TisList_1_t1634065389_m1791132528_MethodInfo_var;
+extern const MethodInfo* leaderBoardUIControl_U3CupdateLeaderU3Em__6_m4111519829_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1197733196_MethodInfo_var;
+extern const MethodInfo* Task_1_ContinueWith_m3301348102_MethodInfo_var;
+extern const MethodInfo* ParseExtensions_FetchAsync_TisParseUser_t38435519_m1767046898_MethodInfo_var;
+extern const MethodInfo* U3CupdateLeaderU3Ec__AnonStorey3_U3CU3Em__7_m3546027800_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m1336822655_MethodInfo_var;
+extern const MethodInfo* Task_1_ContinueWith_m1112791621_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1626966595;
 extern const uint32_t leaderBoardUIControl_updateLeader_m2098149191_MetadataUsageId;
 extern "C"  void leaderBoardUIControl_updateLeader_m2098149191 (leaderBoardUIControl_t2635474284 * __this, const MethodInfo* method)
 {
@@ -15503,6 +15543,7 @@ extern "C"  void leaderBoardUIControl_updateLeader_m2098149191 (leaderBoardUICon
 	Transform_t284553113 * V_0 = {0};
 	Object_t * V_1 = {0};
 	Object_t * V_2 = {0};
+	U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 * V_3 = {0};
 	Exception_t1967233988 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t1967233988 * __exception_local = 0;
@@ -15602,39 +15643,95 @@ IL_0073:
 
 IL_007a:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(ParseUser_t38435519_il2cpp_TypeInfo_var);
-		ParseQuery_1_t2473943795 * L_16 = ParseUser_get_Query_m3137637238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Task_1_t3787887843 * L_16 = ParseCloud_CallFunctionAsync_TisList_1_t1634065389_m1791132528(NULL /*static, unused*/, _stringLiteral1626966595, (Object_t*)NULL, /*hidden argument*/ParseCloud_CallFunctionAsync_TisList_1_t1634065389_m1791132528_MethodInfo_var);
+		IntPtr_t L_17 = { (void*)leaderBoardUIControl_U3CupdateLeaderU3Em__6_m4111519829_MethodInfo_var };
+		Action_1_t3936340548 * L_18 = (Action_1_t3936340548 *)il2cpp_codegen_object_new(Action_1_t3936340548_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1197733196(L_18, __this, L_17, /*hidden argument*/Action_1__ctor_m1197733196_MethodInfo_var);
 		NullCheck(L_16);
-		ParseQuery_1_t2473943795 * L_17 = ParseQuery_1_OrderBy_m2816358753(L_16, _stringLiteral3590497808, /*hidden argument*/ParseQuery_1_OrderBy_m2816358753_MethodInfo_var);
-		NullCheck(L_17);
-		ParseQuery_1_t2473943795 * L_18 = ParseQuery_1_Limit_m3975108296(L_17, ((int32_t)50), /*hidden argument*/ParseQuery_1_Limit_m3975108296_MethodInfo_var);
-		NullCheck(L_18);
-		Task_1_t769445033 * L_19 = ParseQuery_1_FindAsync_m3964066658(L_18, /*hidden argument*/ParseQuery_1_FindAsync_m3964066658_MethodInfo_var);
-		IntPtr_t L_20 = { (void*)leaderBoardUIControl_U3CupdateLeaderU3Em__6_m1050326723_MethodInfo_var };
-		Action_1_t917897738 * L_21 = (Action_1_t917897738 *)il2cpp_codegen_object_new(Action_1_t917897738_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3626943444(L_21, __this, L_20, /*hidden argument*/Action_1__ctor_m3626943444_MethodInfo_var);
-		NullCheck(L_19);
-		Task_1_ContinueWith_m1099580068(L_19, L_21, /*hidden argument*/Task_1_ContinueWith_m1099580068_MethodInfo_var);
+		Task_1_ContinueWith_m3301348102(L_16, L_18, /*hidden argument*/Task_1_ContinueWith_m3301348102_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(ParseUser_t38435519_il2cpp_TypeInfo_var);
+		ParseUser_t38435519 * L_19 = ParseUser_get_CurrentUser_m3906086245(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_19)
+		{
+			goto IL_00d6;
+		}
+	}
+	{
+		U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 * L_20 = (U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 *)il2cpp_codegen_object_new(U3CupdateLeaderU3Ec__AnonStorey3_t2114064412_il2cpp_TypeInfo_var);
+		U3CupdateLeaderU3Ec__AnonStorey3__ctor_m1946407532(L_20, /*hidden argument*/NULL);
+		V_3 = L_20;
+		U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 * L_21 = V_3;
+		NullCheck(L_21);
+		L_21->___U3CU3Ef__this_1 = __this;
+		U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 * L_22 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(ParseUser_t38435519_il2cpp_TypeInfo_var);
+		ParseUser_t38435519 * L_23 = ParseUser_get_CurrentUser_m3906086245(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		L_22->___currentUser_0 = L_23;
+		U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 * L_24 = V_3;
+		NullCheck(L_24);
+		ParseUser_t38435519 * L_25 = (L_24->___currentUser_0);
+		Task_1_t2192257973 * L_26 = ParseExtensions_FetchAsync_TisParseUser_t38435519_m1767046898(NULL /*static, unused*/, L_25, /*hidden argument*/ParseExtensions_FetchAsync_TisParseUser_t38435519_m1767046898_MethodInfo_var);
+		U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 * L_27 = V_3;
+		IntPtr_t L_28 = { (void*)U3CupdateLeaderU3Ec__AnonStorey3_U3CU3Em__7_m3546027800_MethodInfo_var };
+		Action_1_t2340710678 * L_29 = (Action_1_t2340710678 *)il2cpp_codegen_object_new(Action_1_t2340710678_il2cpp_TypeInfo_var);
+		Action_1__ctor_m1336822655(L_29, L_27, L_28, /*hidden argument*/Action_1__ctor_m1336822655_MethodInfo_var);
+		NullCheck(L_26);
+		Task_1_ContinueWith_m1112791621(L_26, L_29, /*hidden argument*/Task_1_ContinueWith_m1112791621_MethodInfo_var);
+	}
+
+IL_00d6:
+	{
 		return;
 	}
 }
-// System.Void leaderBoardUIControl::<updateLeader>m__6(System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseUser>>)
-extern const MethodInfo* Task_1_get_Result_m2412517800_MethodInfo_var;
-extern const uint32_t leaderBoardUIControl_U3CupdateLeaderU3Em__6_m1050326723_MetadataUsageId;
-extern "C"  void leaderBoardUIControl_U3CupdateLeaderU3Em__6_m1050326723 (leaderBoardUIControl_t2635474284 * __this, Task_1_t769445033 * ___t, const MethodInfo* method)
+// System.Void leaderBoardUIControl::<updateLeader>m__6(System.Threading.Tasks.Task`1<System.Collections.Generic.List`1<System.Object>>)
+extern const MethodInfo* Task_1_get_Result_m1599269632_MethodInfo_var;
+extern const uint32_t leaderBoardUIControl_U3CupdateLeaderU3Em__6_m4111519829_MetadataUsageId;
+extern "C"  void leaderBoardUIControl_U3CupdateLeaderU3Em__6_m4111519829 (leaderBoardUIControl_t2635474284 * __this, Task_1_t3787887843 * ___t, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (leaderBoardUIControl_U3CupdateLeaderU3Em__6_m1050326723_MetadataUsageId);
+		il2cpp_codegen_initialize_method (leaderBoardUIControl_U3CupdateLeaderU3Em__6_m4111519829_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Task_1_t769445033 * L_0 = ___t;
+		Task_1_t3787887843 * L_0 = ___t;
 		NullCheck(L_0);
-		Object_t* L_1 = Task_1_get_Result_m2412517800(L_0, /*hidden argument*/Task_1_get_Result_m2412517800_MethodInfo_var);
+		List_1_t1634065389 * L_1 = Task_1_get_Result_m1599269632(L_0, /*hidden argument*/Task_1_get_Result_m1599269632_MethodInfo_var);
 		__this->___leaders_6 = L_1;
 		__this->___isProgressDone_5 = (bool)1;
+		return;
+	}
+}
+// System.Void leaderBoardUIControl/<updateLeader>c__AnonStorey3::.ctor()
+extern "C"  void U3CupdateLeaderU3Ec__AnonStorey3__ctor_m1946407532 (U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void leaderBoardUIControl/<updateLeader>c__AnonStorey3::<>m__7(System.Threading.Tasks.Task`1<Parse.ParseUser>)
+extern const MethodInfo* ParseObject_Get_TisInt32_t2847414787_m668885892_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3590497808;
+extern const uint32_t U3CupdateLeaderU3Ec__AnonStorey3_U3CU3Em__7_m3546027800_MetadataUsageId;
+extern "C"  void U3CupdateLeaderU3Ec__AnonStorey3_U3CU3Em__7_m3546027800 (U3CupdateLeaderU3Ec__AnonStorey3_t2114064412 * __this, Task_1_t2192257973 * ___t, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CupdateLeaderU3Ec__AnonStorey3_U3CU3Em__7_m3546027800_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		leaderBoardUIControl_t2635474284 * L_0 = (__this->___U3CU3Ef__this_1);
+		ParseUser_t38435519 * L_1 = (__this->___currentUser_0);
+		NullCheck(L_1);
+		int32_t L_2 = ParseObject_Get_TisInt32_t2847414787_m668885892(L_1, _stringLiteral3590497808, /*hidden argument*/ParseObject_Get_TisInt32_t2847414787_m668885892_MethodInfo_var);
+		NullCheck(L_0);
+		L_0->___parseHighScore_8 = L_2;
 		return;
 	}
 }
@@ -15655,16 +15752,16 @@ extern "C"  void NativeShare__ctor_m568423043 (NativeShare_t3407556072 * __this,
 		return;
 	}
 }
-// System.Void NativeShare::ShareScreenshotWithText(System.String)
+// System.Void NativeShare::ShareScreenshotWithText(System.String,System.String)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral47;
-extern const uint32_t NativeShare_ShareScreenshotWithText_m2757420329_MetadataUsageId;
-extern "C"  void NativeShare_ShareScreenshotWithText_m2757420329 (NativeShare_t3407556072 * __this, String_t* ___text, const MethodInfo* method)
+extern const uint32_t NativeShare_ShareScreenshotWithText_m3112391077_MetadataUsageId;
+extern "C"  void NativeShare_ShareScreenshotWithText_m3112391077 (NativeShare_t3407556072 * __this, String_t* ___text, String_t* ___url, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (NativeShare_ShareScreenshotWithText_m2757420329_MetadataUsageId);
+		il2cpp_codegen_initialize_method (NativeShare_ShareScreenshotWithText_m3112391077_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
@@ -15678,7 +15775,7 @@ extern "C"  void NativeShare_ShareScreenshotWithText_m2757420329 (NativeShare_t3
 		Application_CaptureScreenshot_m1449096047(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		String_t* L_4 = ___text;
 		String_t* L_5 = V_0;
-		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		String_t* L_6 = ___url;
 		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
 		NativeShare_Share_m3051472502(__this, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
 		return;
@@ -15887,7 +15984,7 @@ extern "C"  void parseInitScript__ctor_m960204317 (parseInitScript_t3552217358 *
 extern TypeInfo* ParseObject_t725725555_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t3028000714_il2cpp_TypeInfo_var;
 extern const MethodInfo* ParseQuery_1_FirstAsync_m25951986_MethodInfo_var;
-extern const MethodInfo* parseInitScript_U3CStartU3Em__7_m2103864037_MethodInfo_var;
+extern const MethodInfo* parseInitScript_U3CStartU3Em__8_m3237054630_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m1960779399_MethodInfo_var;
 extern const MethodInfo* Task_1_ContinueWith_m630392785_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2940175170;
@@ -15908,7 +16005,7 @@ extern "C"  void parseInitScript_Start_m4202309405 (parseInitScript_t3552217358 
 		ParseQuery_1_t3161233831 * L_1 = V_0;
 		NullCheck(L_1);
 		Task_1_t2879548009 * L_2 = ParseQuery_1_FirstAsync_m25951986(L_1, /*hidden argument*/ParseQuery_1_FirstAsync_m25951986_MethodInfo_var);
-		IntPtr_t L_3 = { (void*)parseInitScript_U3CStartU3Em__7_m2103864037_MethodInfo_var };
+		IntPtr_t L_3 = { (void*)parseInitScript_U3CStartU3Em__8_m3237054630_MethodInfo_var };
 		Action_1_t3028000714 * L_4 = (Action_1_t3028000714 *)il2cpp_codegen_object_new(Action_1_t3028000714_il2cpp_TypeInfo_var);
 		Action_1__ctor_m1960779399(L_4, __this, L_3, /*hidden argument*/Action_1__ctor_m1960779399_MethodInfo_var);
 		NullCheck(L_2);
@@ -15916,7 +16013,7 @@ extern "C"  void parseInitScript_Start_m4202309405 (parseInitScript_t3552217358 
 		return;
 	}
 }
-// System.Void parseInitScript::<Start>m__7(System.Threading.Tasks.Task`1<Parse.ParseObject>)
+// System.Void parseInitScript::<Start>m__8(System.Threading.Tasks.Task`1<Parse.ParseObject>)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern const MethodInfo* Task_1_get_Result_m2054926394_MethodInfo_var;
@@ -15925,13 +16022,13 @@ extern Il2CppCodeGenString* _stringLiteral1985015207;
 extern Il2CppCodeGenString* _stringLiteral937265929;
 extern Il2CppCodeGenString* _stringLiteral1223173486;
 extern Il2CppCodeGenString* _stringLiteral58;
-extern const uint32_t parseInitScript_U3CStartU3Em__7_m2103864037_MetadataUsageId;
-extern "C"  void parseInitScript_U3CStartU3Em__7_m2103864037 (parseInitScript_t3552217358 * __this, Task_1_t2879548009 * ___t, const MethodInfo* method)
+extern const uint32_t parseInitScript_U3CStartU3Em__8_m3237054630_MetadataUsageId;
+extern "C"  void parseInitScript_U3CStartU3Em__8_m3237054630 (parseInitScript_t3552217358 * __this, Task_1_t2879548009 * ___t, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (parseInitScript_U3CStartU3Em__7_m2103864037_MetadataUsageId);
+		il2cpp_codegen_initialize_method (parseInitScript_U3CStartU3Em__8_m3237054630_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	ParseObject_t725725555 * V_0 = {0};
@@ -16090,7 +16187,7 @@ extern TypeInfo* ParseUser_t38435519_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t2764789161_il2cpp_TypeInfo_var;
-extern const MethodInfo* U3CloginToParseU3Ec__Iterator2_U3CU3Em__8_m770742000_MethodInfo_var;
+extern const MethodInfo* U3CloginToParseU3Ec__Iterator2_U3CU3Em__9_m782058127_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m870228341_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3433489;
 extern Il2CppCodeGenString* _stringLiteral275610890;
@@ -16181,7 +16278,7 @@ IL_0021:
 		Task_t2616336456 * L_25 = ParseUser_SignUpAsync_m701014967(L_24, /*hidden argument*/NULL);
 		__this->___U3CsignUpTaskU3E__1_1 = L_25;
 		Task_t2616336456 * L_26 = (__this->___U3CsignUpTaskU3E__1_1);
-		IntPtr_t L_27 = { (void*)U3CloginToParseU3Ec__Iterator2_U3CU3Em__8_m770742000_MethodInfo_var };
+		IntPtr_t L_27 = { (void*)U3CloginToParseU3Ec__Iterator2_U3CU3Em__9_m782058127_MethodInfo_var };
 		Action_1_t2764789161 * L_28 = (Action_1_t2764789161 *)il2cpp_codegen_object_new(Action_1_t2764789161_il2cpp_TypeInfo_var);
 		Action_1__ctor_m870228341(L_28, __this, L_27, /*hidden argument*/Action_1__ctor_m870228341_MethodInfo_var);
 		NullCheck(L_26);
@@ -16233,17 +16330,17 @@ extern "C"  void U3CloginToParseU3Ec__Iterator2_Reset_m3530582934 (U3CloginToPar
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void parseLoginScript/<loginToParse>c__Iterator2::<>m__8(System.Threading.Tasks.Task)
+// System.Void parseLoginScript/<loginToParse>c__Iterator2::<>m__9(System.Threading.Tasks.Task)
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1299157386;
 extern Il2CppCodeGenString* _stringLiteral1620190464;
-extern const uint32_t U3CloginToParseU3Ec__Iterator2_U3CU3Em__8_m770742000_MetadataUsageId;
-extern "C"  void U3CloginToParseU3Ec__Iterator2_U3CU3Em__8_m770742000 (U3CloginToParseU3Ec__Iterator2_t2810064596 * __this, Task_t2616336456 * ___t, const MethodInfo* method)
+extern const uint32_t U3CloginToParseU3Ec__Iterator2_U3CU3Em__9_m782058127_MetadataUsageId;
+extern "C"  void U3CloginToParseU3Ec__Iterator2_U3CU3Em__9_m782058127 (U3CloginToParseU3Ec__Iterator2_t2810064596 * __this, Task_t2616336456 * ___t, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CloginToParseU3Ec__Iterator2_U3CU3Em__8_m770742000_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CloginToParseU3Ec__Iterator2_U3CU3Em__9_m782058127_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{

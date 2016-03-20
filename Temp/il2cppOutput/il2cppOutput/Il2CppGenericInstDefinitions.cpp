@@ -3677,9 +3677,9 @@ extern const Il2CppGenericInst GenInst_UIBehaviour_t644839684_0_0_0 = { 1, GenIn
 extern const Il2CppType MonoBehaviour_t3012272455_0_0_0;
 static const Il2CppType* GenInst_MonoBehaviour_t3012272455_0_0_0_Types[] = { &MonoBehaviour_t3012272455_0_0_0 };
 extern const Il2CppGenericInst GenInst_MonoBehaviour_t3012272455_0_0_0 = { 1, GenInst_MonoBehaviour_t3012272455_0_0_0_Types };
-extern const Il2CppType Task_1_t769445033_0_0_0;
-static const Il2CppType* GenInst_Task_1_t769445033_0_0_0_Types[] = { &Task_1_t769445033_0_0_0 };
-extern const Il2CppGenericInst GenInst_Task_1_t769445033_0_0_0 = { 1, GenInst_Task_1_t769445033_0_0_0_Types };
+extern const Il2CppType Task_1_t3787887843_0_0_0;
+static const Il2CppType* GenInst_Task_1_t3787887843_0_0_0_Types[] = { &Task_1_t3787887843_0_0_0 };
+extern const Il2CppGenericInst GenInst_Task_1_t3787887843_0_0_0 = { 1, GenInst_Task_1_t3787887843_0_0_0_Types };
 static const Il2CppType* GenInst_Task_1_t3306624148_0_0_0_Boolean_t211005341_0_0_0_Types[] = { &Task_1_t3306624148_0_0_0, &Boolean_t211005341_0_0_0 };
 extern const Il2CppGenericInst GenInst_Task_1_t3306624148_0_0_0_Boolean_t211005341_0_0_0 = { 2, GenInst_Task_1_t3306624148_0_0_0_Boolean_t211005341_0_0_0_Types };
 static const Il2CppType* GenInst_Task_1_t2990928874_0_0_0_Boolean_t211005341_0_0_0_Types[] = { &Task_1_t2990928874_0_0_0, &Boolean_t211005341_0_0_0 };
@@ -7833,7 +7833,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[2496] =
 	&GenInst_Button_t990034267_0_0_0,
 	&GenInst_UIBehaviour_t644839684_0_0_0,
 	&GenInst_MonoBehaviour_t3012272455_0_0_0,
-	&GenInst_Task_1_t769445033_0_0_0,
+	&GenInst_Task_1_t3787887843_0_0_0,
 	&GenInst_Task_1_t3306624148_0_0_0_Boolean_t211005341_0_0_0,
 	&GenInst_Task_1_t2990928874_0_0_0_Boolean_t211005341_0_0_0,
 	&GenInst_Task_1_t3306624148_0_0_0_Byte_t2778693821_0_0_0,

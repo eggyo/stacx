@@ -7175,7 +7175,7 @@ extern "C"  SynchronizationContext_t216490034 * SynchronizationContext_get_Curre
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SynchronizationContext_t216490034 * L_0 = ((SynchronizationContext_t216490034_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SynchronizationContext_t216490034_il2cpp_TypeInfo_var))->___currentContext_1;
+		SynchronizationContext_t216490034 * L_0 = ((SynchronizationContext_t216490034_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SynchronizationContext_t216490034_il2cpp_TypeInfo_var))->___currentContext_0;
 		return L_0;
 	}
 }

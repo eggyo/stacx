@@ -34,5 +34,5 @@ extern "C"  bool U3CloginToParseU3Ec__Iterator2_MoveNext_m3295557227 (U3CloginTo
 extern "C"  void U3CloginToParseU3Ec__Iterator2_Dispose_m2389464806 (U3CloginToParseU3Ec__Iterator2_t2810064596 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void parseLoginScript/<loginToParse>c__Iterator2::Reset()
 extern "C"  void U3CloginToParseU3Ec__Iterator2_Reset_m3530582934 (U3CloginToParseU3Ec__Iterator2_t2810064596 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void parseLoginScript/<loginToParse>c__Iterator2::<>m__8(System.Threading.Tasks.Task)
-extern "C"  void U3CloginToParseU3Ec__Iterator2_U3CU3Em__8_m770742000 (U3CloginToParseU3Ec__Iterator2_t2810064596 * __this, Task_t2616336456 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void parseLoginScript/<loginToParse>c__Iterator2::<>m__9(System.Threading.Tasks.Task)
+extern "C"  void U3CloginToParseU3Ec__Iterator2_U3CU3Em__9_m782058127 (U3CloginToParseU3Ec__Iterator2_t2810064596 * __this, Task_t2616336456 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -9,12 +9,12 @@ using System.Runtime.InteropServices;
 public class NativeShare : MonoBehaviour {
 	public string ScreenshotName = "screenshot.png";
 
-    public void ShareScreenshotWithText(string text)
+	public void ShareScreenshotWithText(string text,string url)
     {
         string screenShotPath = Application.persistentDataPath + "/" + ScreenshotName;
         Application.CaptureScreenshot(ScreenshotName);
 
-        Share(text,screenShotPath,"");
+		Share(text,screenShotPath,url);
     }
 
 	public void Share(string shareText, string imagePath, string url, string subject = "")

@@ -4500,7 +4500,7 @@ extern "C"  void Enumerator__ctor_m857368315_gshared (Enumerator_t4014815678 * _
 		__this->___index_2 = (-1);
 		LinkedList_1_t2577235966 * L_1 = ___parent;
 		NullCheck(L_1);
-		uint32_t L_2 = (uint32_t)(L_1->___version_3);
+		uint32_t L_2 = (uint32_t)(L_1->___version_1);
 		__this->___version_3 = L_2;
 		return;
 	}
@@ -4544,7 +4544,7 @@ IL_0012:
 		uint32_t L_2 = (uint32_t)(__this->___version_3);
 		LinkedList_1_t2577235966 * L_3 = (LinkedList_1_t2577235966 *)(__this->___list_0);
 		NullCheck(L_3);
-		uint32_t L_4 = (uint32_t)(L_3->___version_3);
+		uint32_t L_4 = (uint32_t)(L_3->___version_1);
 		if ((((int32_t)L_2) == ((int32_t)L_4)))
 		{
 			goto IL_0033;
@@ -4641,7 +4641,7 @@ IL_0012:
 		uint32_t L_2 = (uint32_t)(__this->___version_3);
 		LinkedList_1_t2577235966 * L_3 = (LinkedList_1_t2577235966 *)(__this->___list_0);
 		NullCheck(L_3);
-		uint32_t L_4 = (uint32_t)(L_3->___version_3);
+		uint32_t L_4 = (uint32_t)(L_3->___version_1);
 		if ((((int32_t)L_2) == ((int32_t)L_4)))
 		{
 			goto IL_0033;
@@ -4664,7 +4664,7 @@ IL_0033:
 	{
 		LinkedList_1_t2577235966 * L_7 = (LinkedList_1_t2577235966 *)(__this->___list_0);
 		NullCheck(L_7);
-		LinkedListNode_1_t539097040 * L_8 = (LinkedListNode_1_t539097040 *)(L_7->___first_5);
+		LinkedListNode_1_t539097040 * L_8 = (LinkedListNode_1_t539097040 *)(L_7->___first_3);
 		__this->___current_1 = L_8;
 		goto IL_0082;
 	}
@@ -4678,7 +4678,7 @@ IL_0054:
 		LinkedListNode_1_t539097040 * L_11 = (LinkedListNode_1_t539097040 *)(__this->___current_1);
 		LinkedList_1_t2577235966 * L_12 = (LinkedList_1_t2577235966 *)(__this->___list_0);
 		NullCheck(L_12);
-		LinkedListNode_1_t539097040 * L_13 = (LinkedListNode_1_t539097040 *)(L_12->___first_5);
+		LinkedListNode_1_t539097040 * L_13 = (LinkedListNode_1_t539097040 *)(L_12->___first_3);
 		if ((!(((Object_t*)(LinkedListNode_1_t539097040 *)L_11) == ((Object_t*)(LinkedListNode_1_t539097040 *)L_13))))
 		{
 			goto IL_0082;
@@ -4756,13 +4756,13 @@ extern "C"  void LinkedList_1__ctor_m2955457271_gshared (LinkedList_1_t257723596
 		Object__ctor_m1772956182((Object_t *)__this, /*hidden argument*/NULL);
 		Object_t * L_0 = (Object_t *)il2cpp_codegen_object_new(Object_t_il2cpp_TypeInfo_var);
 		Object__ctor_m1772956182(L_0, /*hidden argument*/NULL);
-		__this->___syncRoot_4 = L_0;
-		__this->___first_5 = (LinkedListNode_1_t539097040 *)NULL;
+		__this->___syncRoot_2 = L_0;
+		__this->___first_3 = (LinkedListNode_1_t539097040 *)NULL;
 		int32_t L_1 = (int32_t)0;
 		V_0 = (uint32_t)L_1;
-		__this->___version_3 = L_1;
+		__this->___version_1 = L_1;
 		uint32_t L_2 = V_0;
-		__this->___count_2 = L_2;
+		__this->___count_0 = L_2;
 		return;
 	}
 }
@@ -4781,10 +4781,10 @@ extern "C"  void LinkedList_1__ctor_m3369579448_gshared (LinkedList_1_t257723596
 		NullCheck((LinkedList_1_t2577235966 *)__this);
 		((  void (*) (LinkedList_1_t2577235966 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)((LinkedList_1_t2577235966 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
 		SerializationInfo_t2995724695 * L_0 = ___info;
-		__this->___si_6 = L_0;
+		__this->___si_4 = L_0;
 		Object_t * L_1 = (Object_t *)il2cpp_codegen_object_new(Object_t_il2cpp_TypeInfo_var);
 		Object__ctor_m1772956182(L_1, /*hidden argument*/NULL);
-		__this->___syncRoot_4 = L_1;
+		__this->___syncRoot_2 = L_1;
 		return;
 	}
 }
@@ -4875,7 +4875,7 @@ extern "C"  bool LinkedList_1_System_Collections_ICollection_get_IsSynchronized_
 extern "C"  Object_t * LinkedList_1_System_Collections_ICollection_get_SyncRoot_m573420165_gshared (LinkedList_1_t2577235966 * __this, const MethodInfo* method)
 {
 	{
-		Object_t * L_0 = (Object_t *)(__this->___syncRoot_4);
+		Object_t * L_0 = (Object_t *)(__this->___syncRoot_2);
 		return L_0;
 	}
 }
@@ -4931,7 +4931,7 @@ extern "C"  LinkedListNode_1_t539097040 * LinkedList_1_AddLast_m4070107716_gshar
 {
 	LinkedListNode_1_t539097040 * V_0 = {0};
 	{
-		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if (L_0)
 		{
 			goto IL_001f;
@@ -4943,17 +4943,17 @@ extern "C"  LinkedListNode_1_t539097040 * LinkedList_1_AddLast_m4070107716_gshar
 		((  void (*) (LinkedListNode_1_t539097040 *, LinkedList_1_t2577235966 *, Object_t *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8)->method)(L_2, (LinkedList_1_t2577235966 *)__this, (Object_t *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 8));
 		V_0 = (LinkedListNode_1_t539097040 *)L_2;
 		LinkedListNode_1_t539097040 * L_3 = V_0;
-		__this->___first_5 = L_3;
+		__this->___first_3 = L_3;
 		goto IL_0038;
 	}
 
 IL_001f:
 	{
 		Object_t * L_4 = ___value;
-		LinkedListNode_1_t539097040 * L_5 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_5 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		NullCheck(L_5);
 		LinkedListNode_1_t539097040 * L_6 = (LinkedListNode_1_t539097040 *)(L_5->___back_3);
-		LinkedListNode_1_t539097040 * L_7 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_7 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		LinkedListNode_1_t539097040 * L_8 = (LinkedListNode_1_t539097040 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7));
 		((  void (*) (LinkedListNode_1_t539097040 *, LinkedList_1_t2577235966 *, Object_t *, LinkedListNode_1_t539097040 *, LinkedListNode_1_t539097040 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9)->method)(L_8, (LinkedList_1_t2577235966 *)__this, (Object_t *)L_4, (LinkedListNode_1_t539097040 *)L_6, (LinkedListNode_1_t539097040 *)L_7, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9));
 		V_0 = (LinkedListNode_1_t539097040 *)L_8;
@@ -4961,10 +4961,10 @@ IL_001f:
 
 IL_0038:
 	{
-		uint32_t L_9 = (uint32_t)(__this->___count_2);
-		__this->___count_2 = ((int32_t)((int32_t)L_9+(int32_t)1));
-		uint32_t L_10 = (uint32_t)(__this->___version_3);
-		__this->___version_3 = ((int32_t)((int32_t)L_10+(int32_t)1));
+		uint32_t L_9 = (uint32_t)(__this->___count_0);
+		__this->___count_0 = ((int32_t)((int32_t)L_9+(int32_t)1));
+		uint32_t L_10 = (uint32_t)(__this->___version_1);
+		__this->___version_1 = ((int32_t)((int32_t)L_10+(int32_t)1));
 		LinkedListNode_1_t539097040 * L_11 = V_0;
 		return L_11;
 	}
@@ -4984,7 +4984,7 @@ IL_0005:
 
 IL_000b:
 	{
-		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if (L_0)
 		{
 			goto IL_0005;
@@ -4999,7 +4999,7 @@ extern "C"  bool LinkedList_1_Contains_m3484410556_gshared (LinkedList_1_t257723
 {
 	LinkedListNode_1_t539097040 * V_0 = {0};
 	{
-		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		V_0 = (LinkedListNode_1_t539097040 *)L_0;
 		LinkedListNode_1_t539097040 * L_1 = V_0;
 		if (L_1)
@@ -5034,7 +5034,7 @@ IL_002e:
 		LinkedListNode_1_t539097040 * L_6 = (LinkedListNode_1_t539097040 *)(L_5->___forward_2);
 		V_0 = (LinkedListNode_1_t539097040 *)L_6;
 		LinkedListNode_1_t539097040 * L_7 = V_0;
-		LinkedListNode_1_t539097040 * L_8 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_8 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if ((!(((Object_t*)(LinkedListNode_1_t539097040 *)L_7) == ((Object_t*)(LinkedListNode_1_t539097040 *)L_8))))
 		{
 			goto IL_000f;
@@ -5116,7 +5116,7 @@ IL_0045:
 		ObjectU5BU5D_t11523773* L_11 = ___array;
 		NullCheck((Array_t *)(Array_t *)L_11);
 		int32_t L_12 = Array_GetLowerBound_m2369136542((Array_t *)(Array_t *)L_11, (int32_t)0, /*hidden argument*/NULL);
-		uint32_t L_13 = (uint32_t)(__this->___count_2);
+		uint32_t L_13 = (uint32_t)(__this->___count_0);
 		if ((((int64_t)(((int64_t)((int64_t)((int32_t)((int32_t)((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_9)->max_length))))-(int32_t)L_10))+(int32_t)L_12)))))) >= ((int64_t)(((int64_t)((uint64_t)L_13))))))
 		{
 			goto IL_006a;
@@ -5130,9 +5130,9 @@ IL_0045:
 
 IL_006a:
 	{
-		LinkedListNode_1_t539097040 * L_15 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_15 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		V_0 = (LinkedListNode_1_t539097040 *)L_15;
-		LinkedListNode_1_t539097040 * L_16 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_16 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if (L_16)
 		{
 			goto IL_007d;
@@ -5159,7 +5159,7 @@ IL_007d:
 		LinkedListNode_1_t539097040 * L_23 = (LinkedListNode_1_t539097040 *)(L_22->___forward_2);
 		V_0 = (LinkedListNode_1_t539097040 *)L_23;
 		LinkedListNode_1_t539097040 * L_24 = V_0;
-		LinkedListNode_1_t539097040 * L_25 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_25 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if ((!(((Object_t*)(LinkedListNode_1_t539097040 *)L_24) == ((Object_t*)(LinkedListNode_1_t539097040 *)L_25))))
 		{
 			goto IL_007d;
@@ -5174,7 +5174,7 @@ extern "C"  LinkedListNode_1_t539097040 * LinkedList_1_Find_m2643247334_gshared 
 {
 	LinkedListNode_1_t539097040 * V_0 = {0};
 	{
-		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		V_0 = (LinkedListNode_1_t539097040 *)L_0;
 		LinkedListNode_1_t539097040 * L_1 = V_0;
 		if (L_1)
@@ -5237,7 +5237,7 @@ IL_0054:
 		LinkedListNode_1_t539097040 * L_11 = (LinkedListNode_1_t539097040 *)(L_10->___forward_2);
 		V_0 = (LinkedListNode_1_t539097040 *)L_11;
 		LinkedListNode_1_t539097040 * L_12 = V_0;
-		LinkedListNode_1_t539097040 * L_13 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_13 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if ((!(((Object_t*)(LinkedListNode_1_t539097040 *)L_12) == ((Object_t*)(LinkedListNode_1_t539097040 *)L_13))))
 		{
 			goto IL_000f;
@@ -5271,7 +5271,7 @@ extern "C"  void LinkedList_1_GetObjectData_m3974480661_gshared (LinkedList_1_t2
 	}
 	ObjectU5BU5D_t11523773* V_0 = {0};
 	{
-		uint32_t L_0 = (uint32_t)(__this->___count_2);
+		uint32_t L_0 = (uint32_t)(__this->___count_0);
 		V_0 = (ObjectU5BU5D_t11523773*)((ObjectU5BU5D_t11523773*)SZArrayNew(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), (uint32_t)(((uintptr_t)L_0))));
 		ObjectU5BU5D_t11523773* L_1 = V_0;
 		NullCheck((LinkedList_1_t2577235966 *)__this);
@@ -5283,7 +5283,7 @@ extern "C"  void LinkedList_1_GetObjectData_m3974480661_gshared (LinkedList_1_t2
 		NullCheck((SerializationInfo_t2995724695 *)L_2);
 		SerializationInfo_AddValue_m3341936982((SerializationInfo_t2995724695 *)L_2, (String_t*)_stringLiteral1612836015, (Object_t *)(Object_t *)L_3, (Type_t *)L_4, /*hidden argument*/NULL);
 		SerializationInfo_t2995724695 * L_5 = ___info;
-		uint32_t L_6 = (uint32_t)(__this->___version_3);
+		uint32_t L_6 = (uint32_t)(__this->___version_1);
 		NullCheck((SerializationInfo_t2995724695 *)L_5);
 		SerializationInfo_AddValue_m787539465((SerializationInfo_t2995724695 *)L_5, (String_t*)_stringLiteral351608024, (uint32_t)L_6, /*hidden argument*/NULL);
 		return;
@@ -5307,14 +5307,14 @@ extern "C"  void LinkedList_1_OnDeserialization_m3445006959_gshared (LinkedList_
 	ObjectU5BU5D_t11523773* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		SerializationInfo_t2995724695 * L_0 = (SerializationInfo_t2995724695 *)(__this->___si_6);
+		SerializationInfo_t2995724695 * L_0 = (SerializationInfo_t2995724695 *)(__this->___si_4);
 		if (!L_0)
 		{
 			goto IL_0074;
 		}
 	}
 	{
-		SerializationInfo_t2995724695 * L_1 = (SerializationInfo_t2995724695 *)(__this->___si_6);
+		SerializationInfo_t2995724695 * L_1 = (SerializationInfo_t2995724695 *)(__this->___si_4);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_2 = Type_GetTypeFromHandle_m3806905434(NULL /*static, unused*/, (RuntimeTypeHandle_t1864875887 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15)), /*hidden argument*/NULL);
 		NullCheck((SerializationInfo_t2995724695 *)L_1);
@@ -5361,11 +5361,11 @@ IL_004e:
 
 IL_0057:
 	{
-		SerializationInfo_t2995724695 * L_13 = (SerializationInfo_t2995724695 *)(__this->___si_6);
+		SerializationInfo_t2995724695 * L_13 = (SerializationInfo_t2995724695 *)(__this->___si_4);
 		NullCheck((SerializationInfo_t2995724695 *)L_13);
 		uint32_t L_14 = SerializationInfo_GetUInt32_m1908270281((SerializationInfo_t2995724695 *)L_13, (String_t*)_stringLiteral351608024, /*hidden argument*/NULL);
-		__this->___version_3 = L_14;
-		__this->___si_6 = (SerializationInfo_t2995724695 *)NULL;
+		__this->___version_1 = L_14;
+		__this->___si_4 = (SerializationInfo_t2995724695 *)NULL;
 	}
 
 IL_0074:
@@ -5407,38 +5407,38 @@ extern "C"  void LinkedList_1_Remove_m4034790180_gshared (LinkedList_1_t25772359
 		LinkedListNode_1_t539097040 * L_0 = ___node;
 		NullCheck((LinkedList_1_t2577235966 *)__this);
 		((  void (*) (LinkedList_1_t2577235966 *, LinkedListNode_1_t539097040 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18)->method)((LinkedList_1_t2577235966 *)__this, (LinkedListNode_1_t539097040 *)L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18));
-		uint32_t L_1 = (uint32_t)(__this->___count_2);
-		__this->___count_2 = ((int32_t)((int32_t)L_1-(int32_t)1));
-		uint32_t L_2 = (uint32_t)(__this->___count_2);
+		uint32_t L_1 = (uint32_t)(__this->___count_0);
+		__this->___count_0 = ((int32_t)((int32_t)L_1-(int32_t)1));
+		uint32_t L_2 = (uint32_t)(__this->___count_0);
 		if (L_2)
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		__this->___first_5 = (LinkedListNode_1_t539097040 *)NULL;
+		__this->___first_3 = (LinkedListNode_1_t539097040 *)NULL;
 	}
 
 IL_0027:
 	{
 		LinkedListNode_1_t539097040 * L_3 = ___node;
-		LinkedListNode_1_t539097040 * L_4 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_4 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if ((!(((Object_t*)(LinkedListNode_1_t539097040 *)L_3) == ((Object_t*)(LinkedListNode_1_t539097040 *)L_4))))
 		{
 			goto IL_0044;
 		}
 	}
 	{
-		LinkedListNode_1_t539097040 * L_5 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_5 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		NullCheck(L_5);
 		LinkedListNode_1_t539097040 * L_6 = (LinkedListNode_1_t539097040 *)(L_5->___forward_2);
-		__this->___first_5 = L_6;
+		__this->___first_3 = L_6;
 	}
 
 IL_0044:
 	{
-		uint32_t L_7 = (uint32_t)(__this->___version_3);
-		__this->___version_3 = ((int32_t)((int32_t)L_7+(int32_t)1));
+		uint32_t L_7 = (uint32_t)(__this->___version_1);
+		__this->___version_1 = ((int32_t)((int32_t)L_7+(int32_t)1));
 		LinkedListNode_1_t539097040 * L_8 = ___node;
 		NullCheck((LinkedListNode_1_t539097040 *)L_8);
 		((  void (*) (LinkedListNode_1_t539097040 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19)->method)((LinkedListNode_1_t539097040 *)L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19));
@@ -5449,14 +5449,14 @@ IL_0044:
 extern "C"  void LinkedList_1_RemoveFirst_m1652892321_gshared (LinkedList_1_t2577235966 * __this, const MethodInfo* method)
 {
 	{
-		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if (!L_0)
 		{
 			goto IL_0017;
 		}
 	}
 	{
-		LinkedListNode_1_t539097040 * L_1 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_1 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		NullCheck((LinkedList_1_t2577235966 *)__this);
 		((  void (*) (LinkedList_1_t2577235966 *, LinkedListNode_1_t539097040 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 17)->method)((LinkedList_1_t2577235966 *)__this, (LinkedListNode_1_t539097040 *)L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 17));
 	}
@@ -5470,14 +5470,14 @@ IL_0017:
 extern "C"  void LinkedList_1_RemoveLast_m2573038887_gshared (LinkedList_1_t2577235966 * __this, const MethodInfo* method)
 {
 	{
-		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if (!L_0)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		LinkedListNode_1_t539097040 * L_1 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_1 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		NullCheck(L_1);
 		LinkedListNode_1_t539097040 * L_2 = (LinkedListNode_1_t539097040 *)(L_1->___back_3);
 		NullCheck((LinkedList_1_t2577235966 *)__this);
@@ -5493,7 +5493,7 @@ IL_001c:
 extern "C"  int32_t LinkedList_1_get_Count_m1368924491_gshared (LinkedList_1_t2577235966 * __this, const MethodInfo* method)
 {
 	{
-		uint32_t L_0 = (uint32_t)(__this->___count_2);
+		uint32_t L_0 = (uint32_t)(__this->___count_0);
 		return L_0;
 	}
 }
@@ -5501,7 +5501,7 @@ extern "C"  int32_t LinkedList_1_get_Count_m1368924491_gshared (LinkedList_1_t25
 extern "C"  LinkedListNode_1_t539097040 * LinkedList_1_get_First_m3278587786_gshared (LinkedList_1_t2577235966 * __this, const MethodInfo* method)
 {
 	{
-		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		return L_0;
 	}
 }
@@ -5510,14 +5510,14 @@ extern "C"  LinkedListNode_1_t539097040 * LinkedList_1_get_Last_m270176030_gshar
 {
 	LinkedListNode_1_t539097040 * G_B3_0 = {0};
 	{
-		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_0 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		if (!L_0)
 		{
 			goto IL_001b;
 		}
 	}
 	{
-		LinkedListNode_1_t539097040 * L_1 = (LinkedListNode_1_t539097040 *)(__this->___first_5);
+		LinkedListNode_1_t539097040 * L_1 = (LinkedListNode_1_t539097040 *)(__this->___first_3);
 		NullCheck(L_1);
 		LinkedListNode_1_t539097040 * L_2 = (LinkedListNode_1_t539097040 *)(L_1->___back_3);
 		G_B3_0 = L_2;
@@ -5619,7 +5619,7 @@ extern "C"  LinkedListNode_1_t539097040 * LinkedListNode_1_get_Next_m1427618777_
 		LinkedListNode_1_t539097040 * L_1 = (LinkedListNode_1_t539097040 *)(__this->___forward_2);
 		LinkedList_1_t2577235966 * L_2 = (LinkedList_1_t2577235966 *)(__this->___container_1);
 		NullCheck(L_2);
-		LinkedListNode_1_t539097040 * L_3 = (LinkedListNode_1_t539097040 *)(L_2->___first_5);
+		LinkedListNode_1_t539097040 * L_3 = (LinkedListNode_1_t539097040 *)(L_2->___first_3);
 		if ((((Object_t*)(LinkedListNode_1_t539097040 *)L_1) == ((Object_t*)(LinkedListNode_1_t539097040 *)L_3)))
 		{
 			goto IL_002c;

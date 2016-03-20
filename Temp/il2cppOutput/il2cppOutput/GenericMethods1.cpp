@@ -4963,8 +4963,8 @@ extern "C"  Task_1_t706269945 * ParseCloud_CallFunctionAsync_TisInt32_t284741478
 extern "C"  Task_1_t706270040 * ParseCloud_CallFunctionAsync_TisInt64_t2847414882_m199992821_gshared (Object_t * __this /* static, unused */, String_t* ___name, Object_t* ___parameters, CancellationToken_t2348806009  ___cancellationToken, const MethodInfo* method);
 #define ParseCloud_CallFunctionAsync_TisInt64_t2847414882_m199992821(__this /* static, unused */, ___name, ___parameters, ___cancellationToken, method) ((  Task_1_t706270040 * (*) (Object_t * /* static, unused */, String_t*, Object_t*, CancellationToken_t2348806009 , const MethodInfo*))ParseCloud_CallFunctionAsync_TisInt64_t2847414882_m199992821_gshared)(__this /* static, unused */, ___name, ___parameters, ___cancellationToken, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseCloud::CallFunctionAsync<System.Object>(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C"  Task_1_t2990928874 * ParseCloud_CallFunctionAsync_TisObject_t_m1795729902_gshared (Object_t * __this /* static, unused */, String_t* ___name, Object_t* ___parameters, const MethodInfo* method);
-#define ParseCloud_CallFunctionAsync_TisObject_t_m1795729902(__this /* static, unused */, ___name, ___parameters, method) ((  Task_1_t2990928874 * (*) (Object_t * /* static, unused */, String_t*, Object_t*, const MethodInfo*))ParseCloud_CallFunctionAsync_TisObject_t_m1795729902_gshared)(__this /* static, unused */, ___name, ___parameters, method)
+extern "C"  Task_1_t2990928874 * ParseCloud_CallFunctionAsync_TisObject_t_m3429277790_gshared (Object_t * __this /* static, unused */, String_t* ___name, Object_t* ___parameters, const MethodInfo* method);
+#define ParseCloud_CallFunctionAsync_TisObject_t_m3429277790(__this /* static, unused */, ___name, ___parameters, method) ((  Task_1_t2990928874 * (*) (Object_t * /* static, unused */, String_t*, Object_t*, const MethodInfo*))ParseCloud_CallFunctionAsync_TisObject_t_m3429277790_gshared)(__this /* static, unused */, ___name, ___parameters, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseCloud::CallFunctionAsync<System.Object>(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Threading.CancellationToken)
 extern "C"  Task_1_t2990928874 * ParseCloud_CallFunctionAsync_TisObject_t_m2166050871_gshared (Object_t * __this /* static, unused */, String_t* ___name, Object_t* ___parameters, CancellationToken_t2348806009  ___cancellationToken, const MethodInfo* method);
 #define ParseCloud_CallFunctionAsync_TisObject_t_m2166050871(__this /* static, unused */, ___name, ___parameters, ___cancellationToken, method) ((  Task_1_t2990928874 * (*) (Object_t * /* static, unused */, String_t*, Object_t*, CancellationToken_t2348806009 , const MethodInfo*))ParseCloud_CallFunctionAsync_TisObject_t_m2166050871_gshared)(__this /* static, unused */, ___name, ___parameters, ___cancellationToken, method)
@@ -4984,8 +4984,8 @@ extern "C"  Task_1_t3139747780 * ParseCloud_CallFunctionAsync_TisUInt32_t9859253
 extern "C"  Task_1_t3139747875 * ParseCloud_CallFunctionAsync_TisUInt64_t985925421_m2310107678_gshared (Object_t * __this /* static, unused */, String_t* ___name, Object_t* ___parameters, CancellationToken_t2348806009  ___cancellationToken, const MethodInfo* method);
 #define ParseCloud_CallFunctionAsync_TisUInt64_t985925421_m2310107678(__this /* static, unused */, ___name, ___parameters, ___cancellationToken, method) ((  Task_1_t3139747875 * (*) (Object_t * /* static, unused */, String_t*, Object_t*, CancellationToken_t2348806009 , const MethodInfo*))ParseCloud_CallFunctionAsync_TisUInt64_t985925421_m2310107678_gshared)(__this /* static, unused */, ___name, ___parameters, ___cancellationToken, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseExtensions::FetchAsync<System.Object>(T)
-extern "C"  Task_1_t2990928874 * ParseExtensions_FetchAsync_TisObject_t_m1283194105_gshared (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method);
-#define ParseExtensions_FetchAsync_TisObject_t_m1283194105(__this /* static, unused */, ___obj, method) ((  Task_1_t2990928874 * (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))ParseExtensions_FetchAsync_TisObject_t_m1283194105_gshared)(__this /* static, unused */, ___obj, method)
+extern "C"  Task_1_t2990928874 * ParseExtensions_FetchAsync_TisObject_t_m3955265069_gshared (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method);
+#define ParseExtensions_FetchAsync_TisObject_t_m3955265069(__this /* static, unused */, ___obj, method) ((  Task_1_t2990928874 * (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))ParseExtensions_FetchAsync_TisObject_t_m3955265069_gshared)(__this /* static, unused */, ___obj, method)
 // System.Threading.Tasks.Task`1<TResult> Parse.Internal.InternalExtensions::OnSuccess<Parse.ParseObject,System.Object>(System.Threading.Tasks.Task`1<TIn>,System.Func`2<System.Threading.Tasks.Task`1<TIn>,TResult>)
 #define InternalExtensions_OnSuccess_TisParseObject_t725725555_TisObject_t_m4132190908(__this /* static, unused */, ___task, ___continuation, method) ((  Task_1_t2990928874 * (*) (Object_t * /* static, unused */, Task_1_t2879548009 *, Func_2_t2154765007 *, const MethodInfo*))InternalExtensions_OnSuccess_TisObject_t_TisObject_t_m1215878421_gshared)(__this /* static, unused */, ___task, ___continuation, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseExtensions::FetchAsync<System.Object>(T,System.Threading.CancellationToken)
@@ -37269,7 +37269,7 @@ extern "C"  Task_1_t706270040 * ParseCloud_CallFunctionAsync_TisInt64_t284741488
 }
 // System.Threading.Tasks.Task`1<T> Parse.ParseCloud::CallFunctionAsync<System.Object>(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
 // System.Threading.Tasks.Task`1<T> Parse.ParseCloud::CallFunctionAsync<System.Object>(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C"  Task_1_t2990928874 * ParseCloud_CallFunctionAsync_TisObject_t_m1795729902_gshared (Object_t * __this /* static, unused */, String_t* ___name, Object_t* ___parameters, const MethodInfo* method)
+extern "C"  Task_1_t2990928874 * ParseCloud_CallFunctionAsync_TisObject_t_m3429277790_gshared (Object_t * __this /* static, unused */, String_t* ___name, Object_t* ___parameters, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___name;
@@ -37425,7 +37425,7 @@ extern "C"  Task_1_t3139747875 * ParseCloud_CallFunctionAsync_TisUInt64_t9859254
 }
 // System.Threading.Tasks.Task`1<T> Parse.ParseExtensions::FetchAsync<System.Object>(T)
 // System.Threading.Tasks.Task`1<T> Parse.ParseExtensions::FetchAsync<System.Object>(T)
-extern "C"  Task_1_t2990928874 * ParseExtensions_FetchAsync_TisObject_t_m1283194105_gshared (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern "C"  Task_1_t2990928874 * ParseExtensions_FetchAsync_TisObject_t_m3955265069_gshared (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
 	Func_2_t2154765007 * G_B2_0 = {0};
 	Task_1_t2879548009 * G_B2_1 = {0};
