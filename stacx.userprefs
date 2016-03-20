@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/parseInitScript.cs">
+    <Files>
+      <File FileName="Assets/parseInitScript.cs" Line="3" Column="1" />
+      <File FileName="Assets/Stack/Scripts/CanvasManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/adsShowScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Chartboost/Scripts/Chartboost.cs" Line="1" Column="1" />
+      <File FileName="Assets/Stack/Scripts/ButtonLike.cs" Line="1" Column="1" />
+      <File FileName="Assets/Stack/Scripts/ButtonShare.cs" Line="1" Column="1" />
+      <File FileName="Assets/Stack/Scripts/ButtonRate.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

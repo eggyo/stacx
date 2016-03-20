@@ -1,0 +1,23 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="ButtonShare">
+			<method name="OnClicked"/>
+		</type>
+		<type fullname="ButtonMoreGames">
+			<method name="OnClicked"/>
+		</type>
+		<type fullname="parseLoginScript">
+			<method name="setFirstPlay"/>
+		</type>
+		<type fullname="ButtonParseLeaderBoard">
+			<method name="hideLeaderBoard"/>
+			<method name="OnClicked"/>
+		</type>
+		<type fullname="ButtonLike">
+			<method name="OnClicked"/>
+		</type>
+		<type fullname="CanvasManager">
+			<method name="OnStart"/>
+		</type>
+	</assembly>
+</linker>
