@@ -1,4 +1,4 @@
-//Generated on : 3/20/2016 10:05:29 PM
+//Generated on : 3/20/2016 10:20:11 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AndroidJNI

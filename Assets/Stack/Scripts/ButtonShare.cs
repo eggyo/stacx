@@ -27,7 +27,7 @@ public class ButtonShare : AppAdvisoryButtonBase
 		m = GetComponent<NativeShare>();
 
 
-		m.ShareScreenshotWithText(s,URL);
+		m.ShareScreenshotWithText(s,"");
 //		UM_ShareUtility.ShareMedia("Color swipe","My best score: " + bestScore + ". Get it for free: " + "http://barouch.fr/colorswipe.php",textureForPost);
 	}
 }
